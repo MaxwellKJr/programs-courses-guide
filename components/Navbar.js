@@ -1,12 +1,32 @@
 import React from "react";
 import Link from "next/link";
+import { useState } from "react";
+import window from "global";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.screenY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  // window.addEventListener("scroll", changeBackground, true);
+
   return (
-    <nav className="py-4 fixed w-full">
-      <div className="container mx-auto px-2 pb-4 sm:px-4 flex sm:flex-row flex-col justify-left items-center text-white">
+    <nav
+      className={
+        navbar
+          ? "bg-red-500 py-4 absolute w-full z-50"
+          : "bg-transparent absolute py-4 w-full z-50"
+      }
+    >
+      <div className="container mx-auto px-2 pb-4 sm:px-4 flex sm:flex-row flex-col justify-center sm:justify-between md:justify-start items-center text-white">
         <Link href="/">
           <a
             className="text-l font-semibold uppercase flex flex-row text-center items-center"
@@ -16,10 +36,7 @@ const Navbar = () => {
             Unima Programs & Courses
           </a>
         </Link>
-        <form
-          action=""
-          className="search-form mt-2 focus:bg-black focus:bg-opacity-90 transition bg-gray-100 p-2 sm:ml-10 bg-opacity-50 rounded flex flex-row justify-between items-center w-full sm:w-5/12"
-        >
+        <form className="flex-1 lg:flex-none search-form mt-2 focus:bg-black focus:bg-opacity-90 transition bg-gray-100 p-2 sm:ml-10 bg-opacity-50 rounded flex flex-row justify-between items-center w-full sm:w-5/12">
           <input
             type="text"
             placeholder="Search programs, courses, etc..."

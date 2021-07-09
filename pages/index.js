@@ -1,19 +1,16 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <main>
       <Head>
-        <title>Programs an Courses App</title>
+        <title>Home | Programs an Courses App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Navbar />
-      <main>
-        <HeroSection />
-      </main>
-    </div>
+      <HeroSection />
+    </main>
   );
-}
+};
+
+export default Home;

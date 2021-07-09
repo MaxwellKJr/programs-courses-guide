@@ -5,13 +5,13 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-row justify-center items-center text-white h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+    <section className="flex flex-row justify-center items-center text-white pt-20 sm:pt-10 h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
       <div className="flex flex-col sm:flex-row container mx-auto px-4 sm:px-4 justify-center items-center">
         <div className="hero-content sm:w-full md:w-2/4">
-          <h1 className="text-4xl font-bold my-4">
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-bold my-4">
             The University of Malawi Programs and Courses Guide
           </h1>
-          <p className="text-xl text-gray-200">
+          <p className="text-md sm:text-xl text-gray-100">
             This is the official program and course guide to help you choose the
             right courses and the right route map for your program of study.
           </p>

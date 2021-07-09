@@ -3,9 +3,11 @@ import Navbar from "../components/Navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className="bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 h-screen">
       <Navbar />
-      <Component {...pageProps} />
+      <div className="bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 h-full">
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }
