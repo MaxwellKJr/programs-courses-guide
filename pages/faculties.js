@@ -5,7 +5,9 @@ import FacultyCard from "../components/Faculty";
 export async function getStaticProps() {
   //get faculties from the API in this case, from strapi facultiesbase
 
-  const res = await fetch("https://programs-courses-db.herokuapp.com/faculties?_sort=id:ASC");
+  const res = await fetch(
+    "https://programs-courses-db.herokuapp.com/faculties?_sort=id:ASC"
+  );
 
   const data = await res.json();
 

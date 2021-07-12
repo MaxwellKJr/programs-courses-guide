@@ -13,7 +13,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-md sm:text-xl text-white opacity-85">
             This is the official program and course guide to help you choose the
-            right courses and the right route map for your program of study.
+            right courses and route map for your program of study.
           </p>
           <div className="ctas mt-8">
             <Link href="/faculties">

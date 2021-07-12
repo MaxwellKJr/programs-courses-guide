@@ -5,8 +5,16 @@ const Home = () => {
   return (
     <main>
       <Head>
-        <title>Home | Programs an Courses App</title>
+        <title>Home | University of Malawi Programs and Courses Guide</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="og:title"
+          content="University of Malawi Programs and Courses Guide"
+        />
+        <meta
+          name="og:description"
+          content="Here to guide you in choosing the right courses and route map"
+        />
       </Head>
       <HeroSection />
     </main>
