@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 export async function getStaticPaths() {
-  const res = await fetch("http://localhost:1337/faculties?_sort=name:ASC");
+  const res = await fetch(
+    "https://programs-courses-db.herokuapp.com/faculties?_sort=name:ASC"
+  );
 
   const faculties = await res.json();
 
@@ -21,7 +23,9 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
 
-  const res = await fetch(`http://localhost:1337/faculties?slug=${slug}`);
+  const res = await fetch(
+    `https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`
+  );
   const data = await res.json();
   const faculty = data[0];
 

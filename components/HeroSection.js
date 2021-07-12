@@ -11,7 +11,7 @@ const HeroSection = () => {
           <h1 className="text-xl sm:text-2xl md:text-4xl font-bold my-4">
             The University of Malawi Programs and Courses Guide
           </h1>
-          <p className="text-md sm:text-xl text-gray-100">
+          <p className="text-md sm:text-xl text-white opacity-85">
             This is the official program and course guide to help you choose the
             right courses and the right route map for your program of study.
           </p>
