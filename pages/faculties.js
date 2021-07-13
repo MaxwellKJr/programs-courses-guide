@@ -6,7 +6,7 @@ export async function getStaticProps() {
   //get faculties from the API in this case, from strapi facultiesbase
 
   const res = await fetch(
-    "https://programs-courses-db.herokuapp.com/faculties?_sort=id:ASC"
+    "https://programs-courses-db.herokuapp.com/faculties?_sort=name:ASC"
   );
 
   const data = await res.json();
@@ -15,6 +15,7 @@ export async function getStaticProps() {
     props: {
       faculties: data,
     },
+    revalidate: 1
   };
 }
 
