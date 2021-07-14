@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import graduate from "../public/graduate.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -28,7 +30,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hidden pl-10 md:block w-1/2 h-full">
-          <img src="/graduate.png" className="w-full h-full" />
+          <Image src={graduate} className="w-full h-full" placeholder="blur" />
         </div>
       </div>
     </section>
