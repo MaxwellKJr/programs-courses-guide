@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <main>
       <Head>
-        <title>Home | University of Malawi Programs and Courses Guide</title>
+        <title>
+          Home | University of Malawi Programs and Courses Guide App
+        </title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

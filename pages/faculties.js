@@ -23,7 +23,9 @@ const Faculties = ({ faculties }) => {
   return (
     <main>
       <Head>
-        <title>Faculties | Programs and Courses App</title>
+        <title>
+          Faculties | University of Malawi Programs and Courses Guide App
+        </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="h-screen pt-20 lg:pt-0">
