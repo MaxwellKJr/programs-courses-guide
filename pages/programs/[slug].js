@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
 
 const Program = ({ program }) => {
   return (
-    <section className="flex flex-row justify-center items-center text-white h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+    <section className="flex flex-row justify-center items-center text-white bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
       <div className="container mx-auto w-full p-4">
         <Link href={`/faculties/${program.faculty.slug}`}>
           <a

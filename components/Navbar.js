@@ -29,14 +29,18 @@ const Navbar = () => {
       <div className="container mx-auto px-2 pb-4 sm:px-4 flex sm:flex-row flex-col justify-center sm:justify-between md:justify-start items-center text-white">
         <Link href="/">
           <a
-            className="text-l font-semibold uppercase flex flex-row text-center items-center"
+            className="text-sm md:text-lg font-mono font-extrabold uppercase tracking-wide md:tracking-wider flex flex-row text-center items-center"
             title="Here to guide you in the right direction"
           >
-            <img src="/UnimaLogo.png" alt="University of Malawi Logo" />
+            <img
+              src="/UnimaLogo.png"
+              alt="University of Malawi Logo"
+              className="h-12 mr-2 md:w-auto md:h-full"
+            />
             Unima Programs & Courses
           </a>
         </Link>
-        <form className="flex-1 lg:flex-none search-form mt-2 focus:bg-black focus:bg-opacity-90 transition bg-gray-100 p-2 sm:ml-10 bg-opacity-50 rounded flex flex-row justify-between items-center w-full sm:w-5/12">
+        <form className="flex-1 lg:flex-none search-form mt-2 md:mt-0 focus:bg-black focus:bg-opacity-90 transition bg-gray-100 p-2 sm:ml-10 bg-opacity-50 rounded flex flex-row justify-between items-center w-full sm:w-5/12">
           <input
             type="text"
             placeholder="Search programs, courses, etc..."

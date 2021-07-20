@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import FacultyCard from "../components/Faculty";
+import FacultyCard from "../components/FacultyCard";
 
 export async function getStaticProps() {
   //get faculties from the API in this case, from strapi facultiesbase
@@ -15,7 +15,7 @@ export async function getStaticProps() {
     props: {
       faculties: data,
     },
-    revalidate: 1
+    revalidate: 1,
   };
 }
 
@@ -31,7 +31,7 @@ const Faculties = ({ faculties }) => {
           <h1 className=" text-2xl md:text-4xl text-white font-bold uppercase mb-10">
             Choose a faculty
           </h1>
-          <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 text-center">
+          <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 text-center w-full">
             {faculties &&
               faculties.map((faculty) => {
                 return <FacultyCard key={faculty.id} faculty={faculty} />;
