@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
 
 const Faculty = ({ faculty }) => {
   return (
-    <section className="flex flex-row justify-center items-center pt-40 pb-20 lg:pt-40 text-white bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+    <section className="flex flex-row justify-center items-center pt-40 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
       <div className="container mx-auto px-4">
         <Link href="/faculties">
           <a
@@ -50,7 +50,7 @@ const Faculty = ({ faculty }) => {
             {faculty.name}
           </a>
         </Link>
-        {/* DEPARTMENTS IN THE FACULTY */}
+        {/* Programs IN THE FACULTY */}
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
           {faculty.programs.map((program) => (
             <Link key={program.id} href={`/programs/${program.slug}`}>

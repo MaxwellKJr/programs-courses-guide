@@ -39,12 +39,12 @@ export async function getStaticProps({ params }) {
 
 const Program = ({ program }) => {
   return (
-    <section className="flex flex-row justify-center items-center text-white bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+    <section className="flex flex-row justify-center items-center text-white h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
       <div className="container mx-auto w-full p-4">
         <Link href={`/faculties/${program.faculty.slug}`}>
           <a
             className="flex flex-row justify-left items-center text-xl md:text-2xl font-bold border-b-2 w-full md:w-1/2 pb-4 from-white to-transparent hover:opacity-90"
-            title="Back"
+            title={`Back to ${program.faculty.name} programs`}
           >
             <FontAwesomeIcon icon={faArrowLeft} className="h-6 w-6 mr-2 mt-1" />
             {program.name}
