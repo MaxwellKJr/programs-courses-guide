@@ -24,7 +24,7 @@ const Faculties = ({ faculties }) => {
     <main>
       <Head>
         <title>
-          Faculties | University of Malawi Programs and Courses Guide App
+          Faculties | 🎓 University of Malawi Programs and Courses Guide
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

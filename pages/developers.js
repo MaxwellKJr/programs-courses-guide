@@ -29,7 +29,7 @@ const Developers = () => {
     <>
       <Head>
         <title>
-          Group 7 Members | University of Malawi Programs and Courses Guide App
+          Group 7 Members | 🎓 University of Malawi Programs and Courses Guide
         </title>
       </Head>
       <section className="h-auto lg:h-screen pt-40 pb-20 lg:pt-20 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
@@ -41,14 +41,14 @@ const Developers = () => {
                 return (
                   <div
                     key={developer.id}
-                    className="flex flex-col bg-gray-100 bg-opacity-60 p-4 m-2 justify-center items-center h-60 rounded-xl"
+                    className="flex flex-col bg-gray-100 bg-opacity-40 p-4 m-2 justify-center items-center h-60 rounded-xl"
                   >
                     <Image
                       src={developer.imageUrl}
                       placeholder="blur"
                       blurDataURL
-                      width="112"
-                      height="112"
+                      width={112}
+                      height={112}
                       className="w-28 h-28 rounded-full"
                     />
                     <h2 className="text-xl font-semibold pt-4">

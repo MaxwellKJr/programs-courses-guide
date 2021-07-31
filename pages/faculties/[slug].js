@@ -24,31 +24,44 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
 
-  const res = await fetch(
-    `https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`
-  );
-  const data = await res.json();
-  const faculty = data[0];
+  // const res = await fetch(
+  //   `https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`,
+  //   `https://programs-courses-db.herokuapp.com/programs?_sort=id:asc&faculty.slug=${slug}`
+  // );
+  // const data = await res.json();
+  // const faculty = data[0];
+  // return {
+  //   props: {
+  //     faculty,
+  //   },
+  //   revalidate: 1,
+  // };
 
-  return {
-    props: {
-      faculty,
-    },
-    revalidate: 1,
-  };
+  const [facultiesRes, programsRes] = await Promise.all([
+    fetch(`https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`),
+    fetch(
+      `https://programs-courses-db.herokuapp.com/programs?_sort=name:asc&faculty.slug=${slug}`
+    ),
+  ]);
+
+  const [faculties, programs] = await Promise.all([
+    facultiesRes.json(),
+    programsRes.json(),
+  ]);
+  return { props: { faculties, programs }, revalidate: 1 };
 }
 
-const Faculty = ({ faculty }) => {
+const Faculty = ({ faculties, programs }) => {
   return (
     <>
       <Head>
         <title>
-          {faculty.name} | The University of Malawi Programs and Courses Guide
+          {faculties.name} | 🎓 University of Malawi Programs and Courses Guide
         </title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="og:title"
-          content={`${faculty.name} | University of Malawi Programs and Courses Guide`}
+          content={`${faculties.name} | University of Malawi Programs and Courses Guide`}
         />
         <meta
           name="og:description"
@@ -57,27 +70,35 @@ const Faculty = ({ faculty }) => {
       </Head>
       <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
         <div className="container mx-auto px-4">
-          <Link href="/faculties">
-            <a
-              className="flex flex-row justify-left items-center text-2xl md:text-4xl font-bold border-b-2 w-full md:w-1/2 py-6 hover:text-gray-100"
-              title="Back to faculties"
-            >
-              <FontAwesomeIcon
-                icon={faArrowLeft}
-                className="h-6 w-6 mr-2 mt-2"
-              />
-              {faculty.name}
-            </a>
-          </Link>
+          {faculties.map((faculty) => (
+            <Link href="/faculties">
+              <a
+                className="flex flex-row justify-left items-center text-2xl md:text-4xl font-bold border-b-2 w-full md:w-1/2 py-6 hover:text-gray-100"
+                title="Back to faculties"
+                key={faculty.id}
+              >
+                <FontAwesomeIcon
+                  icon={faArrowLeft}
+                  className="h-6 w-6 mr-2 mt-2"
+                />
+                {faculty.name}
+              </a>
+            </Link>
+          ))}
           {/* PROGRAMS IN THE FACULTY */}
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
-            {faculty.programs.map((program) => (
+            {programs.map((program) => (
               <Link key={program.id} href={`/programs/${program.slug}`}>
                 <a className="flex flex-row justify-center items-center text-xl text-center font-semibold py-2 sm:px-2 sm:py-4 bg-gray-100 bg-opacity-30 rounded hover:shadow-xl">
                   {program.name}
                 </a>
               </Link>
             ))}
+            {faculties.map((faculty) => {
+              console.log(faculty.name);
+            })}
+            {console.log(faculties[0])}
+            {console.log(programs)}
           </div>
         </div>
       </section>

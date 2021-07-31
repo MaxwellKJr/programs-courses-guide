@@ -43,7 +43,7 @@ const Program = ({ program }) => {
     <>
       <Head>
         <title>
-          {program.name} | The University of Malawi Programs and Courses Guide
+          {program.name} | 🎓 University of Malawi Programs and Courses Guide
         </title>
         <link rel="icon" href="/favicon.ico" />
         <meta
