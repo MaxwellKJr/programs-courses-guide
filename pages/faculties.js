@@ -3,10 +3,10 @@ import Head from "next/head";
 import FacultyCard from "../components/FacultyCard";
 
 export async function getStaticProps() {
-  //get faculties from the API in this case, from strapi facultiesbase
+  //get faculties from the API, from strapi facultiesbase
 
   const res = await fetch(
-    "https://programs-courses-db.herokuapp.com/faculties?_sort=name:ASC"
+    "https://programs-courses-db.herokuapp.com/faculties?_sort=name:ASC" //order the faculties in ascending order
   );
 
   const data = await res.json();

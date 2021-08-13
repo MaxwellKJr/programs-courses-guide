@@ -8,7 +8,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-row justify-center items-center text-white pt-16 pb-10 md:pb-4 sm:pt-10 h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+    <section className="flex flex-row justify-center items-center text-white pt-16 pb-10 md:pb-4 sm:pt-10 h-screen bg-gradient-to-bl from-yellow-400 via-blue-500 to-blue-500">
       <div className="flex flex-col sm:flex-row container mx-auto px-4 sm:px-4 justify-center items-center">
         <div className="hero-content sm:w-full md:w-2/4">
           <h1 className="text-2xl md:text-4xl font-bold my-4">
@@ -20,7 +20,7 @@ const HeroSection = () => {
           </p>
           <div className="ctas mt-8">
             <Link href="/faculties">
-              <a className="bg-white text-pink-600 hover:text-white border-2 border-white transition delay-75 ease-in-out hover:bg-transparent hover:border-2 hover:border-rounded font-bold p-4 duration-300 md:animate-bounce rounded-full flex flex-row w-full xl:w-2/4 justify-center items-center">
+              <a className="bg-white text-blue-500 hover:text-white border-2 border-white transition delay-75 ease-in-out hover:bg-transparent hover:border-2 hover:border-rounded font-bold p-4 duration-300 rounded-full flex flex-row w-full xl:w-2/4 justify-center items-center">
                 View Programs & Courses
                 <FontAwesomeIcon
                   icon={faChevronRight}

@@ -55,7 +55,7 @@ const Program = ({ program }) => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
-      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 text-white h-screen bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 text-white h-screen bg-gradient-to-bl from-yellow-400 via-blue-500 to-blue-500">
         <div className="container mx-auto w-full p-4">
           <Link href={`/faculties/${program.faculty.slug}`}>
             <a

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 export async function getStaticPaths() {
+  //NextJS function to get data from the database
   const res = await fetch(
     "https://programs-courses-db.herokuapp.com/faculties?_sort=name:ASC"
   );
@@ -23,19 +24,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
-
-  // const res = await fetch(
-  //   `https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`,
-  //   `https://programs-courses-db.herokuapp.com/programs?_sort=id:asc&faculty.slug=${slug}`
-  // );
-  // const data = await res.json();
-  // const faculty = data[0];
-  // return {
-  //   props: {
-  //     faculty,
-  //   },
-  //   revalidate: 1,
-  // };
 
   const [facultiesRes, programsRes] = await Promise.all([
     fetch(`https://programs-courses-db.herokuapp.com/faculties?slug=${slug}`),
@@ -68,7 +56,7 @@ const Faculty = ({ faculties, programs }) => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
-      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-bl from-yellow-400 via-blue-500 to-blue-500">
         <div className="container mx-auto px-4">
           {faculties.map((faculty) => (
             <Link href="/faculties">
@@ -85,7 +73,7 @@ const Faculty = ({ faculties, programs }) => {
               </a>
             </Link>
           ))}
-          {/* PROGRAMS IN THE FACULTY */}
+          {/* programs in the faculty */}
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
             {programs.map((program) => (
               <Link key={program.id} href={`/programs/${program.slug}`}>
@@ -94,11 +82,6 @@ const Faculty = ({ faculties, programs }) => {
                 </a>
               </Link>
             ))}
-            {faculties.map((faculty) => {
-              console.log(faculty.name);
-            })}
-            {console.log(faculties[0])}
-            {console.log(programs)}
           </div>
         </div>
       </section>
