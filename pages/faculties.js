@@ -30,7 +30,7 @@ const Faculties = ({ faculties }) => {
       </Head>
       <section className="h-screen pt-20 lg:pt-0">
         <div className="container mx-auto flex flex-col justify-center items-center h-full px-4">
-          <h1 className=" text-2xl md:text-4xl text-white font-bold uppercase mb-10">
+          <h1 className=" text-2xl md:text-4xl text-yellow-200 font-bold uppercase mb-10">
             Choose a faculty
           </h1>
           <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 text-center w-full">

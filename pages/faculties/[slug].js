@@ -56,7 +56,7 @@ const Faculty = ({ faculties, programs }) => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
-      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-bl from-yellow-400 via-blue-500 to-blue-500">
+      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 lg:pt-40 text-white h-auto bg-gradient-to-br from-yellow-300 via-blue-500 to-blue-400">
         <div className="container mx-auto px-4">
           {faculties.map((faculty) => (
             <Link href="/faculties">
