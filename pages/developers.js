@@ -32,7 +32,7 @@ const Developers = () => {
           Group 7 Members | 🎓 University of Malawi Programs and Courses Guide
         </title>
       </Head>
-      <section className="h-auto lg:h-screen pt-40 pb-20 lg:pt-20 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+      <section className="h-auto lg:h-screen pt-40 pb-20 lg:pt-20 bg-gradient-to-tr from-yellow-200 via-blue-400 to-blue-500">
         <div className="container mx-auto flex flex-col justify-center items-center h-full px-4">
           <h1 className="text-white text-2xl font-bold">Group 7 Members</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center mt-10 w-full md:w-auto">
