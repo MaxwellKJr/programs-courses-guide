@@ -93,15 +93,18 @@ const Program = ({ program }) => {
                 </li>
               </ul>
             </nav>
+
+            {/* QUERY AND ORDER COURSES BASED ON YEAR AND SEMESTER */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <ul className="bg-blue-300 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
                 <h1 className="uppercase font-black text-2xl">1st Semester</h1>
                 {program.courses.map((course) => {
                   if (course.semester === 1 && course.year === 1) {
+                    //Condition to display all courses in first year AND ALSO first semester
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl sm:list-disc ml-0 px-0 md:ml-6 capit md:px-4alize py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -123,18 +126,20 @@ const Program = ({ program }) => {
                 <h2 className="uppercase font-black text-2xl">2nd Semester</h2>
                 {program.courses.map((course) => {
                   if (course.semester === 2 && course.year === 1) {
+                    //Condition to display all courses in first year AND ALSO second semester semester
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl sm:list-disc md:ml-6 capitalize py-4 md:px-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-xl md:list-disc md:ml-6 capitalize py-4 md:pr-4 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
                         <ul className="mt-2 sm:mt-2">
                           <li className="font-normal text-lg list-none">
-                            Credit Hours: {course.creditHours}
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
                           </li>
-                          <li className="text-lg list-none font-normal normal-case">
+                          <li className="text-lg font-normal list-none normal-case">
                             {course.description}
                           </li>
                         </ul>
