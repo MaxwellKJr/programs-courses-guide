@@ -55,7 +55,7 @@ const Program = ({ program }) => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
-      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 text-white h-screen">
+      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 text-white">
         <div className="container mx-auto w-full p-4">
           <Link href={`/faculties/${program.faculty.slug}`}>
             <a
@@ -74,6 +74,68 @@ const Program = ({ program }) => {
               <p className="text-xl font-semibold">
                 Duration: {program.duration} years
               </p>
+            </div>
+
+            {/* Navigation */}
+            <nav className="my-4 md:w-1/2">
+              <ul className="flex justify-between flex-wrap">
+                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
+                  1st Year
+                </li>
+                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
+                  2nd Year
+                </li>
+                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
+                  3rd Year
+                </li>
+                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
+                  4th Year
+                </li>
+              </ul>
+            </nav>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <ul>
+                <h1 className="font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  if (course.semester === 1 && course.year == 1) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-xl list-disc md:ml-6 capitalize py-4 border-b-0 border-blue-100 w-full"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <li className="font-normal text-lg list-none">
+                          Credit Hours: {course.creditHours}
+                        </li>
+                        <li className="list-none font-normal">
+                          {course.description}
+                        </li>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+              <ul className="bg-blue-600 p-2 rounded bg-opacity-60">
+                <h2 className="font-black text-2xl">2nd Semester</h2>
+                {program.courses.map((course) => {
+                  if (course.semester === 2 && course.year == 1) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-xl list-disc md:ml-6 capitalize py-4 border-b-0 border-blue-100 w-full"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <li className="font-normal text-lg list-none">
+                          Credit Hours: {course.creditHours}
+                        </li>
+                        <li className="list-none font-normal">
+                          {course.description}
+                        </li>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
             </div>
           </div>
         </div>
