@@ -55,7 +55,7 @@ const Program = ({ program }) => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
-      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 text-white">
+      <section className="flex flex-row justify-center items-center pt-40 sm:pt-28 pb-20 text-white">
         <div className="container mx-auto w-full p-4">
           <Link href={`/faculties/${program.faculty.slug}`}>
             <a
@@ -94,7 +94,7 @@ const Program = ({ program }) => {
               </ul>
             </nav>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <ul>
+              <ul className="bg-blue-300 bg-opacity-50 p-4 rounded">
                 <h1 className="font-black text-2xl">1st Semester</h1>
                 {program.courses.map((course) => {
                   if (course.semester === 1 && course.year == 1) {
@@ -115,7 +115,7 @@ const Program = ({ program }) => {
                   }
                 })}
               </ul>
-              <ul className="bg-blue-600 p-2 rounded bg-opacity-60">
+              <ul className="bg-blue-500 bg-opacity-50 p-4 rounded">
                 <h2 className="font-black text-2xl">2nd Semester</h2>
                 {program.courses.map((course) => {
                   if (course.semester === 2 && course.year == 1) {
