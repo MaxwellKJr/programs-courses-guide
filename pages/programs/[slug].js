@@ -59,7 +59,7 @@ const Program = ({ program }) => {
         <div className="container mx-auto w-full p-4">
           <Link href={`/faculties/${program.faculty.slug}`}>
             <a
-              className="flex flex-row justify-left items-center text-xl md:text-2xl font-bold border-b-2 w-full md:w-1/2 py-6 from-white to-transparent hover:opacity-90"
+              className="flex flex-row justify-left items-center text-xl md:text-2xl font-bold border-b-2 w-full md:w-2/3 py-6 from-white to-transparent hover:opacity-90"
               title={`Back to ${program.faculty.name} programs`}
             >
               <FontAwesomeIcon
@@ -94,43 +94,50 @@ const Program = ({ program }) => {
               </ul>
             </nav>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <ul className="bg-blue-300 bg-opacity-50 p-4 rounded">
-                <h1 className="font-black text-2xl">1st Semester</h1>
+              <ul className="bg-blue-300 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
                 {program.courses.map((course) => {
-                  if (course.semester === 1 && course.year == 1) {
+                  if (course.semester === 1 && course.year === 1) {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl list-disc md:ml-6 capitalize py-4 border-b-0 border-blue-100 w-full"
+                        className="font-bold text-xl sm:list-disc ml-0 px-0 md:ml-6 capit md:px-4alize py-4 border-b-0 border-blue-100 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
-                        <li className="font-normal text-lg list-none">
-                          Credit Hours: {course.creditHours}
-                        </li>
-                        <li className="list-none font-normal">
-                          {course.description}
-                        </li>
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
                       </li>
                     );
                   }
                 })}
               </ul>
-              <ul className="bg-blue-500 bg-opacity-50 p-4 rounded">
-                <h2 className="font-black text-2xl">2nd Semester</h2>
+              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h2 className="uppercase font-black text-2xl">2nd Semester</h2>
                 {program.courses.map((course) => {
-                  if (course.semester === 2 && course.year == 1) {
+                  if (course.semester === 2 && course.year === 1) {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl list-disc md:ml-6 capitalize py-4 border-b-0 border-blue-100 w-full"
+                        className="font-bold text-xl sm:list-disc md:ml-6 capitalize py-4 md:px-4 border-b-0 border-blue-100 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
-                        <li className="font-normal text-lg list-none">
-                          Credit Hours: {course.creditHours}
-                        </li>
-                        <li className="list-none font-normal">
-                          {course.description}
-                        </li>
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            Credit Hours: {course.creditHours}
+                          </li>
+                          <li className="text-lg list-none font-normal normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
                       </li>
                     );
                   }
