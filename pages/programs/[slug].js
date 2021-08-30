@@ -99,12 +99,12 @@ const Program = ({ program }) => {
               <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
                 <h1 className="uppercase font-black text-2xl">1st Semester</h1>
                 {program.courses.map((course) => {
+                  //Condition to display all courses in first year AND ALSO first semester
                   if (course.semester === 1 && course.year === 1) {
-                    //Condition to display all courses in first year AND ALSO first semester
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -125,12 +125,12 @@ const Program = ({ program }) => {
               <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg">
                 <h2 className="uppercase font-black text-2xl">2nd Semester</h2>
                 {program.courses.map((course) => {
+                  //Condition to display all courses in first year AND ALSO second semester semester
                   if (course.semester === 2 && course.year === 1) {
-                    //Condition to display all courses in first year AND ALSO second semester semester
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-xl md:list-disc md:ml-6 capitalize py-4 md:pr-4 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc md:ml-6 capitalize py-4 md:pr-4 w-full my-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />

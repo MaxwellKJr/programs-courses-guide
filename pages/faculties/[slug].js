@@ -79,7 +79,7 @@ const Faculty = ({ faculties, programs }) => {
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
             {programs.map((program) => (
               <Link key={program.id} href={`/programs/${program.slug}`}>
-                <a className="flex flex-row justify-center items-center text-xl text-center font-semibold py-2 sm:px-2 sm:py-4 bg-gray-100 bg-opacity-30 rounded hover:shadow-xl">
+                <a className="flex flex-row justify-center items-center text-xl text-center font-semibold py-2 sm:px-2 sm:py-4 bg-gray-100 bg-opacity-30 rounded hover: hover:shadow-xl hover:border-yellow-200 hover:bg-yellow-200 hover:text-blue-500 px-4 md:p-4 lg:p-4 transition ease-in-out delay-150 transform hover:scale-105">
                   {program.name}
                 </a>
               </Link>
