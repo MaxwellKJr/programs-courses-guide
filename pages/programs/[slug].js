@@ -148,6 +148,163 @@ const Program = ({ program }) => {
                   }
                 })}
               </ul>
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in first year AND ALSO first semester
+                  if (course.semester === 1 && course.year === 2) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in second year AND ALSO second semester
+                  if (course.semester === 2 && course.year === 2) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in third year AND ALSO first semester
+                  if (course.semester === 1 && course.year === 3) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in third year AND ALSO second semester
+                  if (course.semester === 2 && course.year === 3) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in fourth year AND ALSO first semester
+                  if (course.semester === 1 && course.year === 4) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
+
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+                <h1 className="uppercase font-black text-2xl">1st Semester</h1>
+                {program.courses.map((course) => {
+                  //Condition to display all courses in forth year AND ALSO second semester
+                  if (course.semester === 2 && course.year === 4) {
+                    return (
+                      <li
+                        key={course.courseCode}
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                      >
+                        {`${course.courseCode} - ${course.name}`} <br />
+                        <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
+                      </li>
+                    );
+                  }
+                })}
+              </ul>
             </div>
           </div>
         </div>
