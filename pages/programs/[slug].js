@@ -96,7 +96,7 @@ const Program = ({ program }) => {
 
             {/* QUERY AND ORDER COURSES BASED ON YEAR AND SEMESTER */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   First Year - 1st Semester
                 </h1>
@@ -124,7 +124,8 @@ const Program = ({ program }) => {
                   }
                 })}
               </ul>
-              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg">
+
+              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h2 className="uppercase font-black text-2xl">
                   First Year - 2nd Semester
                 </h2>
@@ -153,7 +154,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Second Year - 1st Semester
                 </h1>
@@ -182,7 +183,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Second Year - 2ND Semester
                 </h1>
@@ -211,7 +212,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Third Year - 1st Semester
                 </h1>
@@ -240,7 +241,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Third Year - 2ND Semester
                 </h1>
@@ -269,7 +270,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Fourth Year - 1st Semester
                 </h1>
@@ -298,7 +299,7 @@ const Program = ({ program }) => {
                 })}
               </ul>
 
-              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg">
+              <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
                 <h1 className="uppercase font-black text-2xl">
                   Fourth Year - 2ND Semester
                 </h1>
