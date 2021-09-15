@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Select from "react-select";
 import Link from "next/link";
 import Head from "next/head";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,21 +25,37 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params;
 
+  // Program data
   const res = await fetch(
     `https://programs-courses-db.herokuapp.com/programs?slug=${slug}`
   );
   const data = await res.json();
-  const program = data[0];
+
+  // Courses data
+  const resCourses = await fetch(
+    "https://programs-courses-db.herokuapp.com/courses?_sort=name:ASC"
+  );
+  const coursesData = await resCourses.json();
+
+  // Departments data
+  const resDepartments = await fetch(
+    "https://programs-courses-db.herokuapp.com/departments?_sort=name:ASC"
+  );
+  const departmentsData = await resDepartments.json();
+
+  // const program = data[0];
 
   return {
     props: {
-      program,
+      program: data[0],
+      courses: coursesData,
+      departments: departmentsData,
     },
     revalidate: 1,
   };
 }
 
-const Program = ({ program }) => {
+const Program = ({ program, courses, departments }) => {
   return (
     <>
       <Head>
@@ -69,6 +86,7 @@ const Program = ({ program }) => {
               {program.name}
             </a>
           </Link>
+
           <div className="program-details mt-4">
             <div>
               <p className="text-xl font-semibold">
@@ -76,23 +94,37 @@ const Program = ({ program }) => {
               </p>
             </div>
 
-            {/* Navigation */}
-            <nav className="my-4 md:w-1/2">
-              <ul className="flex justify-between flex-wrap">
-                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
-                  1st Year
-                </li>
-                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
-                  2nd Year
-                </li>
-                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
-                  3rd Year
-                </li>
-                <li className="p-2 w-24 cursor-pointer font-bold hover:bg-blue-300">
-                  4th Year
-                </li>
-              </ul>
-            </nav>
+            <div className="flex md:flex-row flex-wrap flex-col">
+              <Select
+                getOptionLabel={(option) =>
+                  `${option.courseCode} - ${option.name}`
+                }
+                getOptionValue={(option) => option.id}
+                options={
+                  program.courses ||
+                  program.courses.year ||
+                  program.courses.semester
+                }
+                instanceId="program"
+                isMulti
+                onChange={(values) => handleDepartments(values)}
+                placeholder="Filter by courses"
+                className="md:w-1/4 m-4 ml-0 bg-blue-300 text-blue-600"
+              />
+
+              <br />
+
+              <Select
+                getOptionLabel={(option) => `${option.name}`}
+                getOptionValue={(option) => option.id}
+                options={departments}
+                instanceId="departments"
+                isMulti
+                onChange={(values) => handleDepartments(values)}
+                placeholder="Filter by department"
+                className="md:w-1/4 m-4 mr-0 bg-blue-300 text-blue-600"
+              />
+            </div>
 
             {/* QUERY AND ORDER COURSES BASED ON YEAR AND SEMESTER */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -123,6 +155,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 1 &&
+                      recommendedCourse.year === 1
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -152,6 +203,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 2 &&
+                      recommendedCourse.year === 1
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -181,6 +251,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 1 &&
+                      recommendedCourse.year === 2
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -210,6 +299,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 2 &&
+                      recommendedCourse.year === 2
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -239,6 +347,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 1 &&
+                      recommendedCourse.year === 3
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -268,6 +395,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 2 &&
+                      recommendedCourse.year === 3
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-500 bg-opacity-50 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -297,6 +443,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 1 &&
+                      recommendedCourse.year === 4
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
 
               <ul className="bg-blue-300 bg-opacity-40 py-4 px-2 md:p-4 rounded shadow-lg transform transition-all ease-in-out hover:scale-100">
@@ -326,6 +491,25 @@ const Program = ({ program }) => {
                     );
                   }
                 })}
+                <div className="bg-blue-500 text-yellow-200 p-2">
+                  <h2 className="font-semibold text-2xl text-white py-2">
+                    Recommended Optional Courses:
+                  </h2>
+                  {program.recommendeds.map((recommendedCourse) => {
+                    if (
+                      recommendedCourse.semester === 2 &&
+                      recommendedCourse.year === 4
+                    )
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
+                        </ul>
+                      );
+                  })}
+                </div>
               </ul>
             </div>
           </div>
