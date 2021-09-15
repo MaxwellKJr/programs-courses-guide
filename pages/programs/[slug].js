@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Select from "react-select";
 import Link from "next/link";
 import Head from "next/head";
@@ -43,19 +43,33 @@ export async function getStaticProps({ params }) {
   );
   const departmentsData = await resDepartments.json();
 
+  // Corequisites data
+  const resCorequisites = await fetch(
+    "https://programs-courses-db.herokuapp.com/corequisites?_sort=name:ASC"
+  );
+  const corequisitesData = await resCorequisites.json();
+
+  // Prerequisites data
+  const resPrerequisites = await fetch(
+    "https://programs-courses-db.herokuapp.com/prerequisites?_sort=name:ASC"
+  );
+  const prerequisitesData = await resPrerequisites.json();
+
   // const program = data[0];
 
-  return {
+  https: return {
     props: {
       program: data[0],
       courses: coursesData,
       departments: departmentsData,
+      corequisites: corequisitesData,
+      prerequisites: prerequisitesData,
     },
     revalidate: 1,
   };
 }
 
-const Program = ({ program, courses, departments }) => {
+const Program = ({ program, courses, corequisites, prerequisites }) => {
   return (
     <>
       <Head>
@@ -94,17 +108,13 @@ const Program = ({ program, courses, departments }) => {
               </p>
             </div>
 
-            <div className="flex md:flex-row flex-wrap flex-col">
+            {/* <div className="flex md:flex-row flex-wrap flex-col">
               <Select
                 getOptionLabel={(option) =>
                   `${option.courseCode} - ${option.name}`
                 }
                 getOptionValue={(option) => option.id}
-                options={
-                  program.courses ||
-                  program.courses.year ||
-                  program.courses.semester
-                }
+                options={program.courses}
                 instanceId="program"
                 isMulti
                 onChange={(values) => handleDepartments(values)}
@@ -124,7 +134,7 @@ const Program = ({ program, courses, departments }) => {
                 placeholder="Filter by department"
                 className="md:w-1/4 m-4 mr-0 bg-blue-300 text-blue-600"
               />
-            </div>
+            </div> */}
 
             {/* QUERY AND ORDER COURSES BASED ON YEAR AND SEMESTER */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -155,6 +165,7 @@ const Program = ({ program, courses, departments }) => {
                     );
                   }
                 })}
+
                 <div className="bg-blue-500 text-yellow-200 p-2">
                   <h2 className="font-semibold text-2xl text-white py-2">
                     Recommended Optional Courses:
@@ -163,7 +174,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 1 &&
                       recommendedCourse.year === 1
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -172,6 +183,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse == [] ||
+                      recommendedCourse.name == ""
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
@@ -211,7 +237,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 2 &&
                       recommendedCourse.year === 1
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -220,6 +246,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse == [] ||
+                      recommendedCourse.name == ""
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
@@ -259,7 +300,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 1 &&
                       recommendedCourse.year === 2
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -268,6 +309,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse == [] ||
+                      recommendedCourse.name == ""
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
@@ -307,7 +363,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 2 &&
                       recommendedCourse.year === 2
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -316,6 +372,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse == [] ||
+                      recommendedCourse.name == ""
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
@@ -355,7 +426,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 1 &&
                       recommendedCourse.year === 3
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -364,6 +435,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse.semester === 1 &&
+                      recommendedCourse.year === 3
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
@@ -403,7 +489,7 @@ const Program = ({ program, courses, departments }) => {
                     if (
                       recommendedCourse.semester === 2 &&
                       recommendedCourse.year === 3
-                    )
+                    ) {
                       return (
                         <ul>
                           <li
@@ -412,6 +498,21 @@ const Program = ({ program, courses, departments }) => {
                           >{`${recommendedCourse.courseCode} - ${recommendedCourse.name}`}</li>
                         </ul>
                       );
+                    } else if (
+                      recommendedCourse == [] ||
+                      recommendedCourse.name == ""
+                    ) {
+                      return (
+                        <ul>
+                          <li
+                            key={recommendedCourse.id}
+                            className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 border-b-0 border-blue-100 w-full"
+                          >
+                            No recommended courses are available for this course
+                          </li>
+                        </ul>
+                      );
+                    }
                   })}
                 </div>
               </ul>
