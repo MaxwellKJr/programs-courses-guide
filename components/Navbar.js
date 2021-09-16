@@ -93,7 +93,7 @@ const Navbar = () => {
                   key={key}
                   onClick={() => setSearchBarStatus(false)}
                 >
-                  <Link href={`programs/${val.slug}`}>
+                  <Link href={`/programs/${val.slug}`}>
                     <a className="font-semibold">{val.name}</a>
                   </Link>
                 </div>
