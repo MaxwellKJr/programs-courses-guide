@@ -87,23 +87,13 @@ const Navbar = () => {
               }
             })
             .map((val, key) => {
-              if (val.name) {
-                return (
-                  <div className="" key={key}>
-                    <Link href={`programs/${val.slug}`}>
-                      <a className="font-semibold">{val.name}</a>
-                    </Link>
-                  </div>
-                );
-              } else if (val.name.courses) {
-                return (
-                  <div className="" key={key}>
-                    <Link href={`programs/${val.slug}`}>
-                      <a className="font-semibold">{val.name.course}</a>
-                    </Link>
-                  </div>
-                );
-              }
+              return (
+                <div className="" key={key}>
+                  <Link href={`programs/${val.slug}`}>
+                    <a className="font-semibold">{val.name}</a>
+                  </Link>
+                </div>
+              );
             })}
         </div>
       </Modal>
