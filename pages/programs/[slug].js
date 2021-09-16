@@ -37,39 +37,17 @@ export async function getStaticProps({ params }) {
   );
   const coursesData = await resCourses.json();
 
-  // Departments data
-  const resDepartments = await fetch(
-    "https://programs-courses-db.herokuapp.com/departments?_sort=name:ASC"
-  );
-  const departmentsData = await resDepartments.json();
-
-  // Corequisites data
-  const resCorequisites = await fetch(
-    "https://programs-courses-db.herokuapp.com/corequisites?_sort=name:ASC"
-  );
-  const corequisitesData = await resCorequisites.json();
-
-  // Prerequisites data
-  const resPrerequisites = await fetch(
-    "https://programs-courses-db.herokuapp.com/prerequisites?_sort=name:ASC"
-  );
-  const prerequisitesData = await resPrerequisites.json();
-
   // const program = data[0];
 
   return {
     props: {
       program: data[0],
-      courses: coursesData,
-      departments: departmentsData,
-      corequisites: corequisitesData,
-      prerequisites: prerequisitesData,
     },
     revalidate: 1,
   };
 }
 
-const Program = ({ program, courses, corequisites, prerequisites }) => {
+const Program = ({ program }) => {
   return (
     <>
       <Head>

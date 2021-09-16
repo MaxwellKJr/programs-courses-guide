@@ -31,38 +31,38 @@ export async function getStaticProps({ params }) {
   );
   const coursesData = await resCourses.json();
 
-  // Program data
-  const res = await fetch(
-    `https://programs-courses-db.herokuapp.com/programs?_sort=name:ASC`
-  );
-  const data = await res.json();
+  // // Program data
+  // const res = await fetch(
+  //   `https://programs-courses-db.herokuapp.com/programs?_sort=name:ASC`
+  // );
+  // const data = await res.json();
 
-  // Departments data
-  const resDepartments = await fetch(
-    "https://programs-courses-db.herokuapp.com/departments?_sort=name:ASC"
-  );
-  const departmentsData = await resDepartments.json();
+  // // Departments data
+  // const resDepartments = await fetch(
+  //   "https://programs-courses-db.herokuapp.com/departments?_sort=name:ASC"
+  // );
+  // const departmentsData = await resDepartments.json();
 
-  // Corequisites data
-  const resCorequisites = await fetch(
-    "https://programs-courses-db.herokuapp.com/corequisites?_sort=name:ASC"
-  );
-  const corequisitesData = await resCorequisites.json();
+  // // Corequisites data
+  // const resCorequisites = await fetch(
+  //   "https://programs-courses-db.herokuapp.com/corequisites?_sort=name:ASC"
+  // );
+  // const corequisitesData = await resCorequisites.json();
 
-  // Prerequisites data
-  const resPrerequisites = await fetch(
-    "https://programs-courses-db.herokuapp.com/prerequisites?_sort=name:ASC"
-  );
-  const prerequisitesData = await resPrerequisites.json();
+  // // Prerequisites data
+  // const resPrerequisites = await fetch(
+  //   "https://programs-courses-db.herokuapp.com/prerequisites?_sort=name:ASC"
+  // );
+  // const prerequisitesData = await resPrerequisites.json();
 
   // const program = data[0];
 
   return {
     props: {
       course: coursesData[0],
-      departments: departmentsData,
-      corequisites: corequisitesData,
-      prerequisites: prerequisitesData,
+      // departments: departmentsData,
+      // corequisites: corequisitesData,
+      // prerequisites: prerequisitesData,
     },
     revalidate: 1,
   };
