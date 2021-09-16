@@ -126,14 +126,19 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
-                        <Link href={`/courses/${course.courseCode}`}>
-                          <a>
-                            {`${course.courseCode} - ${course.name}`} <br />
-                          </a>
-                        </Link>
+                        {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
+                        <ul className="mt-2 sm:mt-2">
+                          <li className="font-normal text-lg list-none">
+                            <span className="font-bold">Credit Hours :</span>{" "}
+                            {course.creditHours}
+                          </li>
+                          <li className="text-lg font-normal list-none normal-case">
+                            {course.description}
+                          </li>
+                        </ul>
                       </li>
                     );
                   }
@@ -185,7 +190,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc md:ml-6 capitalize py-4 md:pr-4 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -248,7 +253,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -311,7 +316,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -374,7 +379,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -437,7 +442,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -500,7 +505,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
@@ -548,7 +553,7 @@ const Program = ({ program }) => {
                     return (
                       <li
                         key={course.courseCode}
-                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full my-2"
+                        className="font-bold text-lg sm:text-xl md:list-disc ml-0 px-0 md:ml-6 capitalize md:pr-4 py-4 border-b-0 border-blue-100 w-full mb-2"
                       >
                         {`${course.courseCode} - ${course.name}`} <br />
                         <hr className="my-2 w-1/4" />
