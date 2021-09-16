@@ -31,12 +31,6 @@ export async function getStaticProps({ params }) {
   );
   const data = await res.json();
 
-  // Courses data
-  const resCourses = await fetch(
-    "https://programs-courses-db.herokuapp.com/courses?_sort=name:ASC"
-  );
-  const coursesData = await resCourses.json();
-
   // const program = data[0];
 
   return {
