@@ -88,7 +88,11 @@ const Navbar = () => {
             })
             .map((val, key) => {
               return (
-                <div className="" key={key}>
+                <div
+                  className=""
+                  key={key}
+                  onClick={() => setSearchBarStatus(false)}
+                >
                   <Link href={`programs/${val.slug}`}>
                     <a className="font-semibold">{val.name}</a>
                   </Link>
