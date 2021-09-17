@@ -1,0 +1,5159 @@
+[
+  {
+    "id": 357,
+    "name": "Academic Literacy I",
+    "description": "Introduction to Academic Literacy I",
+    "courseCode": "LML112",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:47:04.944Z",
+    "updated_at": "2021-09-15T19:47:04.961Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 363,
+    "name": "Academic Literacy II: Writing and Oral Skills for Social Science",
+    "description": "Academic Literacy II: Writing and Oral Skills for Social Science",
+    "courseCode": "LML122",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:53:42.759Z",
+    "updated_at": "2021-09-15T19:54:01.174Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 173,
+    "name": "Acids, Bases and Spectroscopy",
+    "description": "Introduction to Acids, Bases and Spectroscopy",
+    "courseCode": "CHE221",
+    "department": {
+      "id": 14,
+      "name": "Department of Chemistry",
+      "slug": "department-of-chemistry",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:06:46.339Z",
+      "created_at": "2021-07-12T14:06:43.601Z",
+      "updated_at": "2021-07-12T14:06:46.381Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T09:14:40.773Z",
+    "updated_at": "2021-09-12T09:14:40.790Z",
+    "programs": [
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 22,
+        "courseName": "Electricity, Magnetism, Vibrations and Waves",
+        "courseCode": "PHY121",
+        "courseCodeID": "phy-121",
+        "created_at": "2021-09-15T15:05:01.457Z",
+        "updated_at": "2021-09-15T19:00:37.730Z"
+      },
+      {
+        "id": 23,
+        "courseName": "General Chemistry II",
+        "courseCode": "CHE121",
+        "courseCodeID": "che-121",
+        "created_at": "2021-09-15T15:06:06.108Z",
+        "updated_at": "2021-09-15T16:52:04.679Z"
+      },
+      {
+        "id": 13,
+        "courseName": "General Chemistry I",
+        "courseCode": "CHE111",
+        "courseCodeID": "che-111",
+        "created_at": "2021-09-15T13:46:31.778Z",
+        "updated_at": "2021-09-15T16:51:23.875Z"
+      },
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      },
+      {
+        "id": 3,
+        "courseName": "Trigonometry and Elementary  Calculus",
+        "courseCode": "MAT121",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-14T19:14:29.295Z",
+        "updated_at": "2021-09-15T19:17:09.818Z"
+      },
+      {
+        "id": 15,
+        "courseName": "Mechanics and Properties of Matter ",
+        "courseCode": "PHY111",
+        "courseCodeID": "phy-111",
+        "created_at": "2021-09-15T13:48:56.676Z",
+        "updated_at": "2021-09-15T16:50:02.568Z"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "name": "Administrative Law",
+    "description": "Introduction to Administrative Law",
+    "courseCode": "LML124",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:56:00.791Z",
+    "updated_at": "2021-09-15T19:56:00.808Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 63,
+    "name": "Advanced Academic Skills for Communication Studies",
+    "description": "introduction to advanced academic skills for communication studies",
+    "courseCode": "CCS215",
+    "department": {
+      "id": 10,
+      "name": "Department of Language and Communication Skills",
+      "slug": "department-of-language-and-communication-skills",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:04.861Z",
+      "created_at": "2021-07-12T14:04:00.747Z",
+      "updated_at": "2021-07-12T14:04:04.898Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T19:18:53.041Z",
+    "updated_at": "2021-08-31T19:18:53.065Z",
+    "programs": [
+      {
+        "id": 25,
+        "name": "Bachelor of Arts in Communication and Cultural Studies",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-communication-and-cultural-studies",
+        "created_at": "2021-07-12T18:44:36.527Z",
+        "updated_at": "2021-07-12T18:44:36.545Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 352,
+    "name": "Advanced Calculus",
+    "description": "Provide students with advanced skills in calculus for the study of actuarial science\n",
+    "courseCode": "MAT214",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": 3,
+    "created_at": "2021-09-14T20:28:12.748Z",
+    "updated_at": "2021-09-15T12:47:53.176Z",
+    "programs": [
+      {
+        "id": 10,
+        "name": "Bachelor of Science in Actuarial Science (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-actuarial-science-(hons)",
+        "created_at": "2021-07-12T12:54:07.858Z",
+        "updated_at": "2021-08-31T12:31:46.319Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 19,
+    "name": "Advanced Computer Programming",
+    "description": "Advanced Computer Programming",
+    "courseCode": "COM221",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": 2,
+    "created_at": "2021-08-29T16:28:22.272Z",
+    "updated_at": "2021-09-14T19:10:03.544Z",
+    "programs": [
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 6,
+        "course": null,
+        "courseCode": "COM222",
+        "courseName": "Database Systems",
+        "courseCodeID": "com-222",
+        "created_at": "2021-09-14T19:04:40.566Z",
+        "updated_at": "2021-09-14T19:05:46.867Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 2,
+        "courseName": "Introduction to Computer Programming",
+        "courseCode": "COM121",
+        "courseCodeID": "com-121",
+        "created_at": "2021-09-14T19:03:53.555Z",
+        "updated_at": "2021-09-15T19:21:08.294Z"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Advanced Physical Geography",
+    "description": "Introduction to  Advanced Physical Geography",
+    "courseCode": "GEO221",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:36:04.329Z",
+    "updated_at": "2021-09-12T10:36:04.349Z",
+    "programs": [
+      {
+        "id": 22,
+        "name": "Bachelor of Science in Geography",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geography",
+        "created_at": "2021-07-12T16:25:47.229Z",
+        "updated_at": "2021-07-12T16:25:47.239Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 5,
+        "courseName": " Introduction to Physical Geography",
+        "courseCode": "GEO121",
+        "courseCodeID": "geo-121",
+        "created_at": "2021-09-14T20:31:44.796Z",
+        "updated_at": "2021-09-15T19:09:44.858Z"
+      },
+      {
+        "id": 30,
+        "courseName": " Cartography, map analysis and surveying techniques ",
+        "courseCode": "GEO211",
+        "courseCodeID": "geo-211",
+        "created_at": "2021-09-15T19:09:15.636Z",
+        "updated_at": "2021-09-15T19:09:15.652Z"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": " African Traditional Religions",
+    "description": " Introduction to African Traditional Religions",
+    "courseCode": "TRS126",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:33:05.208Z",
+    "updated_at": "2021-09-12T08:33:05.226Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 149,
+    "name": "African Traditional Religions",
+    "description": "Introduction to African Traditional Religions",
+    "courseCode": "TRS124",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:30:53.200Z",
+    "updated_at": "2021-09-12T08:30:53.217Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 37,
+    "name": "Algorithm and Data Structure",
+    "description": "introduction to algorithm and data structure",
+    "courseCode": "COM314",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:02:49.365Z",
+    "updated_at": "2021-08-31T13:02:49.484Z",
+    "programs": [
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 197,
+    "name": " Analogue Electronics and Systems",
+    "description": " Analogue Electronics and Systems",
+    "courseCode": "ELE311",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:04:15.501Z",
+    "updated_at": "2021-09-12T10:04:15.522Z",
+    "programs": [
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 342,
+    "name": " Analysis of Social Problems",
+    "description": " Introduction to Analysis of Social Problems",
+    "courseCode": "SOC212",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T09:03:20.158Z",
+    "updated_at": "2021-09-14T09:03:20.174Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 45,
+    "name": "Artificial Intelligence",
+    "description": "introduction to artificial intelligence",
+    "courseCode": "COM325",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:24:52.309Z",
+    "updated_at": "2021-08-31T13:24:52.335Z",
+    "programs": [
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 41,
+    "name": "Automate Theory, Languages and Computation",
+    "description": "introduction to automate theory, languages and computation",
+    "courseCode": "COM321",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:09:19.535Z",
+    "updated_at": "2021-08-31T13:09:35.777Z",
+    "programs": [
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 212,
+    "name": "Basic Demographical and Epidemiological Statistics",
+    "description": "Basic Demographical and Epidemiological Statistics",
+    "courseCode": "STA222",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:21:00.657Z",
+    "updated_at": "2021-09-12T10:21:00.672Z",
+    "programs": [
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 117,
+    "name": "Basics of Desktop Publishing",
+    "description": "introduction to basics of desktop publishing",
+    "courseCode": "MFD 125",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T19:54:52.411Z",
+    "updated_at": "2021-09-11T19:54:52.441Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 111,
+    "name": "Basic Thermodynamics and Chemical Kinetics",
+    "description": "This introduces students to a lot of things about Thermodynamics",
+    "courseCode": "CHE211",
+    "department": {
+      "id": 14,
+      "name": "Department of Chemistry",
+      "slug": "department-of-chemistry",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:06:46.339Z",
+      "created_at": "2021-07-12T14:06:43.601Z",
+      "updated_at": "2021-07-12T14:06:46.381Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T19:33:20.284Z",
+    "updated_at": "2021-09-12T09:07:46.227Z",
+    "programs": [
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 2,
+        "course": null,
+        "courseCode": "CHE212",
+        "courseName": "Functional Group Chemistry",
+        "courseCodeID": "che-212",
+        "created_at": "2021-09-11T20:13:58.918Z",
+        "updated_at": "2021-09-15T14:30:16.968Z"
+      },
+      {
+        "id": 4,
+        "course": null,
+        "courseCode": "MAT211",
+        "courseName": "Calculus I",
+        "courseCodeID": "mat-211",
+        "created_at": "2021-09-14T18:55:40.953Z",
+        "updated_at": "2021-09-15T15:29:05.999Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 23,
+        "courseName": "General Chemistry II",
+        "courseCode": "CHE121",
+        "courseCodeID": "che-121",
+        "created_at": "2021-09-15T15:06:06.108Z",
+        "updated_at": "2021-09-15T16:52:04.679Z"
+      },
+      {
+        "id": 15,
+        "courseName": "Mechanics and Properties of Matter ",
+        "courseCode": "PHY111",
+        "courseCodeID": "phy-111",
+        "created_at": "2021-09-15T13:48:56.676Z",
+        "updated_at": "2021-09-15T16:50:02.568Z"
+      },
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      },
+      {
+        "id": 13,
+        "courseName": "General Chemistry I",
+        "courseCode": "CHE111",
+        "courseCodeID": "che-111",
+        "created_at": "2021-09-15T13:46:31.778Z",
+        "updated_at": "2021-09-15T16:51:23.875Z"
+      },
+      {
+        "id": 22,
+        "courseName": "Electricity, Magnetism, Vibrations and Waves",
+        "courseCode": "PHY121",
+        "courseCodeID": "phy-121",
+        "created_at": "2021-09-15T15:05:01.457Z",
+        "updated_at": "2021-09-15T19:00:37.730Z"
+      },
+      {
+        "id": 3,
+        "courseName": "Trigonometry and Elementary  Calculus",
+        "courseCode": "MAT121",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-14T19:14:29.295Z",
+        "updated_at": "2021-09-15T19:17:09.818Z"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Biblical Studies - Growth & Content; O.T",
+    "description": "Introduction to Biblical Studies - Growth & Content; O.T",
+    "courseCode": "TRS112",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:21:28.239Z",
+    "updated_at": "2021-09-12T08:21:28.258Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 157,
+    "name": " Biblical Studies: Introduction to  New Testament",
+    "description": "Introduction to Biblical Studies: Introduction to \nNew Testament",
+    "courseCode": "TRS215",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:38:50.337Z",
+    "updated_at": "2021-09-12T08:38:50.361Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 143,
+    "name": " Biblical Studies - Old Testament",
+    "description": " Introduction to Biblical Studies - Old Testament",
+    "courseCode": "TRS115",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:24:20.288Z",
+    "updated_at": "2021-09-12T08:24:20.313Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 154,
+    "name": " Biblical Studies: Pauline  Literature",
+    "description": "Introduction to Biblical Studies: Pauline Literature",
+    "courseCode": "TRS212",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:36:03.497Z",
+    "updated_at": "2021-09-12T08:36:03.513Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 161,
+    "name": " Biblical Studies: Prophecy and  Apocalyptic Literature",
+    "description": "Introduction to Biblical Studies: Prophecy and \nApocalyptic Literature",
+    "courseCode": "TRS222",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:42:45.834Z",
+    "updated_at": "2021-09-12T08:42:45.859Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 279,
+    "name": "Biological Psychology",
+    "description": "Introduction to Biological Psychology",
+    "courseCode": "PSY212",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:53:12.974Z",
+    "updated_at": "2021-09-14T06:53:13.295Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 53,
+    "name": "Business Management for Computer Scientist",
+    "description": "introduction to business management for computer scientist",
+    "courseCode": "COM423",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 4,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:47:25.868Z",
+    "updated_at": "2021-08-31T13:47:25.953Z",
+    "programs": [
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 11,
+    "name": "Calculus I",
+    "description": "introduction to calculus",
+    "courseCode": "MAT211",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T16:08:44.050Z",
+    "updated_at": "2021-09-11T15:53:01.318Z",
+    "programs": [
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 1,
+        "course": null,
+        "courseCode": "CHE211",
+        "courseName": "Basic Thermodynamics and Chemical Kinetics",
+        "courseCodeID": "che-211",
+        "created_at": "2021-09-11T19:40:46.536Z",
+        "updated_at": "2021-09-15T14:29:10.106Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      },
+      {
+        "id": 3,
+        "courseName": "Trigonometry and Elementary  Calculus",
+        "courseCode": "MAT121",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-14T19:14:29.295Z",
+        "updated_at": "2021-09-15T19:17:09.818Z"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Calculus II",
+    "description": "Calculus II",
+    "courseCode": "MAT221",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T16:39:07.603Z",
+    "updated_at": "2021-08-29T16:39:07.647Z",
+    "programs": [
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 26,
+        "courseName": " Calculus I",
+        "courseCode": "MAT211",
+        "courseCodeID": "mat-211",
+        "created_at": "2021-09-15T16:53:56.928Z",
+        "updated_at": "2021-09-15T16:55:41.163Z"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": " Cartography, map analysis and surveying techniques",
+    "description": " Introduction to Cartography, map analysis and surveying techniques",
+    "courseCode": "GEO211",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:33:22.305Z",
+    "updated_at": "2021-09-12T10:33:22.324Z",
+    "programs": [
+      {
+        "id": 22,
+        "name": "Bachelor of Science in Geography",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geography",
+        "created_at": "2021-07-12T16:25:47.229Z",
+        "updated_at": "2021-07-12T16:25:47.239Z"
+      },
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 4,
+        "courseName": "Contemporary Human Geography",
+        "courseCode": "GEO111",
+        "courseCodeID": "geo-111",
+        "created_at": "2021-09-14T20:30:10.760Z",
+        "updated_at": "2021-09-15T19:10:44.115Z"
+      },
+      {
+        "id": 5,
+        "courseName": " Introduction to Physical Geography",
+        "courseCode": "GEO121",
+        "courseCodeID": "geo-121",
+        "created_at": "2021-09-14T20:31:44.796Z",
+        "updated_at": "2021-09-15T19:09:44.858Z"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "name": " Child & Adolescent Psychopathology ",
+    "description": " Child & Adolescent Psychopathology ",
+    "courseCode": "PSY223",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T07:18:59.360Z",
+    "updated_at": "2021-09-14T07:18:59.376Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 160,
+    "name": "Church History: African",
+    "description": "Introduction to Church History: African",
+    "courseCode": "TRS221",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:41:34.853Z",
+    "updated_at": "2021-09-12T08:41:34.877Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 146,
+    "name": " Church History - Medieval",
+    "description": "Introduction to Church History - Medieval",
+    "courseCode": "TRS121",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:27:24.983Z",
+    "updated_at": "2021-09-12T08:27:24.997Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 153,
+    "name": "Church History - Reformation",
+    "description": "Introduction to Church History - Reformation",
+    "courseCode": "TRS211",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:35:00.916Z",
+    "updated_at": "2021-09-12T08:35:00.936Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 158,
+    "name": "Church History: Reformation",
+    "description": "Introduction to Church History: Reformation",
+    "courseCode": "TRS216",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:39:51.235Z",
+    "updated_at": "2021-09-12T08:39:51.261Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 139,
+    "name": "Church History: The Early Church",
+    "description": "Introduction to Church History: The Early Church",
+    "courseCode": "TRS111",
+    "department": {
+      "id": 6,
+      "name": "Department of Theology",
+      "slug": "department-of-theology",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:00:54.962Z",
+      "created_at": "2021-07-12T14:00:48.219Z",
+      "updated_at": "2021-07-12T16:27:36.346Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:20:18.416Z",
+    "updated_at": "2021-09-12T08:20:18.439Z",
+    "programs": [
+      {
+        "id": 28,
+        "name": "Bachelor of Arts in Theology",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-theology",
+        "created_at": "2021-07-12T18:46:38.373Z",
+        "updated_at": "2021-07-12T18:46:38.392Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 327,
+    "name": " Classical Sociological Theory",
+    "description": "Introduction to Classical Sociological Theory",
+    "courseCode": "GEN211",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T08:38:35.986Z",
+    "updated_at": "2021-09-14T08:38:36.001Z",
+    "programs": [
+      {
+        "id": 33,
+        "name": "Bachelor of Social Science in Gender Studies",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-gender-studies",
+        "created_at": "2021-07-19T14:25:12.760Z",
+        "updated_at": "2021-07-19T14:25:12.768Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 341,
+    "name": "Classical Sociological Theory",
+    "description": "Introduction to Classical Sociological Theory",
+    "courseCode": "SOC211",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T09:02:06.647Z",
+    "updated_at": "2021-09-14T09:02:06.660Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 247,
+    "name": " Clothing and Textile design I",
+    "description": "Introduction to Clothing and Textile design I",
+    "courseCode": "HFC211",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:23:23.784Z",
+    "updated_at": "2021-09-13T19:23:23.811Z",
+    "programs": [
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      },
+      {
+        "id": 5,
+        "name": "Bachelor of Education in Human Ecology",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-human-ecology",
+        "created_at": "2021-07-12T12:49:29.765Z",
+        "updated_at": "2021-07-12T12:49:29.772Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 51,
+    "name": "Cloud Computing",
+    "description": "introduction to cloud computing",
+    "courseCode": "COM421",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 4,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:40:41.005Z",
+    "updated_at": "2021-08-31T13:40:41.068Z",
+    "programs": [
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 253,
+    "name": "cognitive psychology",
+    "description": "Introduction to Cognitive Psychology",
+    "courseCode": "PSY222",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:31:46.898Z",
+    "updated_at": "2021-09-13T19:31:46.913Z",
+    "programs": [
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 284,
+    "name": "cognitivepsychology",
+    "description": "introduction to cognitive psychology",
+    "courseCode": "PSY215",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:57:43.286Z",
+    "updated_at": "2021-09-14T06:57:43.324Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 251,
+    "name": "Cognitive Psychology",
+    "description": "Introduction to Cognitive Psychology",
+    "courseCode": "PSY211",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:29:32.595Z",
+    "updated_at": "2021-09-13T19:29:32.650Z",
+    "programs": [
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 338,
+    "name": "college algebra",
+    "description": "Introduction to College Algebra",
+    "courseCode": "SOC112",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T08:55:12.347Z",
+    "updated_at": "2021-09-14T08:55:12.364Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 353,
+    "name": " College Algebra",
+    "description": "Introduction to  College Algebra for economists\n\n",
+    "courseCode": "MAT112",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T20:42:25.300Z",
+    "updated_at": "2021-09-14T20:42:25.322Z",
+    "programs": [
+      {
+        "id": 39,
+        "name": "Bachelor of Arts in Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-economics",
+        "created_at": "2021-07-19T14:31:39.792Z",
+        "updated_at": "2021-07-19T14:31:39.809Z"
+      },
+      {
+        "id": 29,
+        "name": "Bachelor of Arts in Development Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-development-economics",
+        "created_at": "2021-07-12T18:49:17.105Z",
+        "updated_at": "2021-07-12T18:49:17.115Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 2,
+    "name": "College Algebra",
+    "description": "This introduces students to college algebra.",
+    "courseCode": "MAT111",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": 11,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T14:34:15.501Z",
+    "updated_at": "2021-09-14T06:10:46.427Z",
+    "programs": [
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      },
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      },
+      {
+        "id": 29,
+        "name": "Bachelor of Arts in Development Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-development-economics",
+        "created_at": "2021-07-12T18:49:17.105Z",
+        "updated_at": "2021-07-12T18:49:17.115Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 22,
+        "name": "Bachelor of Science in Geography",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geography",
+        "created_at": "2021-07-12T16:25:47.229Z",
+        "updated_at": "2021-07-12T16:25:47.239Z"
+      },
+      {
+        "id": 10,
+        "name": "Bachelor of Science in Actuarial Science (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-actuarial-science-(hons)",
+        "created_at": "2021-07-12T12:54:07.858Z",
+        "updated_at": "2021-08-31T12:31:46.319Z"
+      },
+      {
+        "id": 39,
+        "name": "Bachelor of Arts in Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-economics",
+        "created_at": "2021-07-19T14:31:39.792Z",
+        "updated_at": "2021-07-19T14:31:39.809Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 27,
+    "name": "Communication Ethics",
+    "description": "introduction to communication ethics",
+    "courseCode": "CCS 211",
+    "department": {
+      "id": 10,
+      "name": "Department of Language and Communication Skills",
+      "slug": "department-of-language-and-communication-skills",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:04.861Z",
+      "created_at": "2021-07-12T14:04:00.747Z",
+      "updated_at": "2021-07-12T14:04:04.898Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T16:46:33.893Z",
+    "updated_at": "2021-08-29T16:46:33.909Z",
+    "programs": [
+      {
+        "id": 25,
+        "name": "Bachelor of Arts in Communication and Cultural Studies",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-communication-and-cultural-studies",
+        "created_at": "2021-07-12T18:44:36.527Z",
+        "updated_at": "2021-07-12T18:44:36.545Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 44,
+    "name": "Computer Graphics and Multimedia",
+    "description": "introduction to computer graphics and multimedia",
+    "courseCode": "COM324",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:21:52.368Z",
+    "updated_at": "2021-08-31T13:21:52.394Z",
+    "programs": [
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 42,
+    "name": "Computer Networks",
+    "description": "introduction to computer networks",
+    "courseCode": "COM322",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:14:14.309Z",
+    "updated_at": "2021-08-31T13:14:14.787Z",
+    "programs": [
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 36,
+    "name": "Computer Security",
+    "description": "introduction to computer security",
+    "courseCode": "COM313",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T12:59:56.653Z",
+    "updated_at": "2021-08-31T12:59:56.677Z",
+    "programs": [
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 359,
+    "name": " Constitutional Law",
+    "description": "Introduction to Constitutional Law",
+    "courseCode": "LML114",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:49:15.908Z",
+    "updated_at": "2021-09-15T19:49:15.925Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 259,
+    "name": "Consumer education and family financial management ",
+    "description": "Introduction to Consumer education and family financial management ",
+    "courseCode": "HFC222",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:00:33.773Z",
+    "updated_at": "2021-09-14T06:00:33.800Z",
+    "programs": [
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      },
+      {
+        "id": 5,
+        "name": "Bachelor of Education in Human Ecology",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-human-ecology",
+        "created_at": "2021-07-12T12:49:29.765Z",
+        "updated_at": "2021-07-12T12:49:29.772Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 258,
+    "name": "Consumer Education and Family Financial Management",
+    "description": "Introduction to Consumer Education and Family Financial Management",
+    "courseCode": "HFN222",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:44:26.487Z",
+    "updated_at": "2021-09-13T19:44:26.523Z",
+    "programs": [
+      {
+        "id": 5,
+        "name": "Bachelor of Education in Human Ecology",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-human-ecology",
+        "created_at": "2021-07-12T12:49:29.765Z",
+        "updated_at": "2021-07-12T12:49:29.772Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 219,
+    "name": " Contemporary Human Geography",
+    "description": "introduction to Contemporary Human Geography",
+    "courseCode": "GEO111",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:30:01.905Z",
+    "updated_at": "2021-09-12T10:30:01.933Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      },
+      {
+        "id": 22,
+        "name": "Bachelor of Science in Geography",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geography",
+        "created_at": "2021-07-12T16:25:47.229Z",
+        "updated_at": "2021-07-12T16:25:47.239Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 332,
+    "name": " Contemporary Sociological Theory",
+    "description": " Introduction to Contemporary Sociological Theory",
+    "courseCode": "GEN221",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": 10,
+    "created_at": "2021-09-14T08:44:42.279Z",
+    "updated_at": "2021-09-15T12:43:06.307Z",
+    "programs": [
+      {
+        "id": 33,
+        "name": "Bachelor of Social Science in Gender Studies",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-gender-studies",
+        "created_at": "2021-07-19T14:25:12.760Z",
+        "updated_at": "2021-07-19T14:25:12.768Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 344,
+    "name": "Contemporary Sociological Theory",
+    "description": "Introduction to Contemporary Sociological Theory",
+    "courseCode": "SOC221",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T09:05:35.799Z",
+    "updated_at": "2021-09-14T09:06:13.461Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 7,
+        "course": null,
+        "courseCode": "SOC222",
+        "courseName": "Deviance and Crime",
+        "courseCodeID": "soc-222",
+        "created_at": "2021-09-15T12:43:58.206Z",
+        "updated_at": "2021-09-15T12:43:58.249Z"
+      },
+      {
+        "id": 8,
+        "course": null,
+        "courseCode": "SOC223",
+        "courseName": "Sociology of Poverty",
+        "courseCodeID": "soc-223",
+        "created_at": "2021-09-15T12:44:38.968Z",
+        "updated_at": "2021-09-15T12:44:38.983Z"
+      }
+    ],
+    "prerequisites": []
+  },
+  {
+    "id": 65,
+    "name": "Creative Writing",
+    "description": "introduction to creative writing",
+    "courseCode": "CCS222",
+    "department": {
+      "id": 10,
+      "name": "Department of Language and Communication Skills",
+      "slug": "department-of-language-and-communication-skills",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:04.861Z",
+      "created_at": "2021-07-12T14:04:00.747Z",
+      "updated_at": "2021-07-12T14:04:04.898Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T19:23:21.825Z",
+    "updated_at": "2021-08-31T19:23:21.841Z",
+    "programs": [
+      {
+        "id": 25,
+        "name": "Bachelor of Arts in Communication and Cultural Studies",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-communication-and-cultural-studies",
+        "created_at": "2021-07-12T18:44:36.527Z",
+        "updated_at": "2021-07-12T18:44:36.545Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 369,
+    "name": "Criminal Investigations and Law Enforcement Procedures",
+    "description": "Criminal Investigations and Law Enforcement Procedures",
+    "courseCode": "LML126",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:58:43.081Z",
+    "updated_at": "2021-09-15T19:58:43.110Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 8,
+    "name": "Critical Thinking",
+    "description": "introduction to critical thinking",
+    "courseCode": "CCS 111",
+    "department": {
+      "id": 10,
+      "name": "Department of Language and Communication Skills",
+      "slug": "department-of-language-and-communication-skills",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:04.861Z",
+      "created_at": "2021-07-12T14:04:00.747Z",
+      "updated_at": "2021-07-12T14:04:04.898Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T15:57:01.774Z",
+    "updated_at": "2021-08-29T15:57:01.795Z",
+    "programs": [
+      {
+        "id": 25,
+        "name": "Bachelor of Arts in Communication and Cultural Studies",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-communication-and-cultural-studies",
+        "created_at": "2021-07-12T18:44:36.527Z",
+        "updated_at": "2021-07-12T18:44:36.545Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 101,
+    "name": "Critical thinking and  Philosophical Reasoning",
+    "description": "introduction to critical thinking and philosophical reasoning",
+    "courseCode": "MFD 111",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T16:53:12.688Z",
+    "updated_at": "2021-09-11T16:56:58.003Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 235,
+    "name": "Data analysis and statistics",
+    "description": "Introduction to Data analysis and statistics",
+    "courseCode": "GLY222",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:45:21.542Z",
+    "updated_at": "2021-09-12T10:45:21.594Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 19,
+        "courseName": "Earth materials",
+        "courseCode": "GLY111",
+        "courseCodeID": "gly-111",
+        "created_at": "2021-09-15T14:25:31.415Z",
+        "updated_at": "2021-09-15T19:20:18.381Z"
+      },
+      {
+        "id": 33,
+        "courseName": " Stratigraphy and Palaeontology",
+        "courseCode": "GLY212",
+        "courseCodeID": "gly-212",
+        "created_at": "2021-09-15T19:18:07.699Z",
+        "updated_at": "2021-09-15T19:18:07.709Z"
+      },
+      {
+        "id": 25,
+        "courseName": " Planet Earth",
+        "courseCode": "GLY121",
+        "courseCodeID": "gly-121",
+        "created_at": "2021-09-15T16:36:35.085Z",
+        "updated_at": "2021-09-15T19:19:52.273Z"
+      },
+      {
+        "id": 3,
+        "courseName": "Trigonometry and Elementary  Calculus",
+        "courseCode": "MAT121",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-14T19:14:29.295Z",
+        "updated_at": "2021-09-15T19:17:09.818Z"
+      },
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Database Systems",
+    "description": "Database Systems",
+    "courseCode": "COM222",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T16:42:49.292Z",
+    "updated_at": "2021-08-29T16:42:49.322Z",
+    "programs": [
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 35,
+        "courseName": "Advanced Computer Programming",
+        "courseCode": "COM211",
+        "courseCodeID": "com-211",
+        "created_at": "2021-09-15T19:28:38.371Z",
+        "updated_at": "2021-09-15T19:28:38.387Z"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Descriptive Statistics ",
+    "description": "Descriptive Statistics ",
+    "courseCode": "STA121",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": 18,
+    "created_at": "2021-09-12T10:08:13.772Z",
+    "updated_at": "2021-09-15T14:19:07.299Z",
+    "programs": [
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 18,
+        "courseName": "The Statistical System",
+        "courseCode": "STA111",
+        "courseCodeID": "sta-111",
+        "created_at": "2021-09-15T14:19:07.289Z",
+        "updated_at": "2021-09-15T14:58:50.444Z"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Desktop Publishing",
+    "description": "Desktop Publishing",
+    "courseCode": "MFD 225",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T20:18:30.963Z",
+    "updated_at": "2021-09-11T20:18:30.974Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 325,
+    "name": "developmental psychology",
+    "description": "Introduction to Developmental Psychology",
+    "courseCode": "GEN124",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T08:35:51.083Z",
+    "updated_at": "2021-09-14T08:35:51.112Z",
+    "programs": [
+      {
+        "id": 33,
+        "name": "Bachelor of Social Science in Gender Studies",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-gender-studies",
+        "created_at": "2021-07-19T14:25:12.760Z",
+        "updated_at": "2021-07-19T14:25:12.768Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 277,
+    "name": " Developmental Psychology",
+    "description": " introduction to Developmental Psychology",
+    "courseCode": "PSY121",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:49:40.955Z",
+    "updated_at": "2021-09-14T06:49:40.967Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 246,
+    "name": "Developmental Psychology",
+    "description": "Introduction to Developmental Psychology",
+    "courseCode": "PSY122",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:18:03.921Z",
+    "updated_at": "2021-09-13T19:18:03.934Z",
+    "programs": [
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 345,
+    "name": "Deviance and Crime",
+    "description": "Introduction to Deviance and Crime",
+    "courseCode": "SOC222",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T09:07:09.227Z",
+    "updated_at": "2021-09-14T09:07:09.243Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 182,
+    "name": "Device Electronics I",
+    "description": "Introduction to Device Electronics I",
+    "courseCode": "ELE313",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T09:45:10.146Z",
+    "updated_at": "2021-09-12T09:45:10.173Z",
+    "programs": [
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 185,
+    "name": " Device Electronics II",
+    "description": " Introduction to Device Electronics II",
+    "courseCode": "ELE324",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T09:47:48.878Z",
+    "updated_at": "2021-09-12T09:47:48.893Z",
+    "programs": [
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 204,
+    "name": "Digital Electronics",
+    "description": "Introduction to Digital Electronics",
+    "courseCode": "ELE323",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:11:12.068Z",
+    "updated_at": "2021-09-12T10:11:12.082Z",
+    "programs": [
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 20,
+        "course": null,
+        "courseCode": "MAT221",
+        "courseName": " Calculus II",
+        "courseCodeID": "mat-221",
+        "created_at": "2021-09-15T17:00:47.613Z",
+        "updated_at": "2021-09-15T19:01:11.390Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 22,
+        "courseName": "Electricity, Magnetism, Vibrations and Waves",
+        "courseCode": "PHY121",
+        "courseCodeID": "phy-121",
+        "created_at": "2021-09-15T15:05:01.457Z",
+        "updated_at": "2021-09-15T19:00:37.730Z"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "digital videography: fundamentals",
+    "description": "digital videography: fundamentals",
+    "courseCode": "MFD 141",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T20:04:08.123Z",
+    "updated_at": "2021-09-11T20:04:08.134Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 280,
+    "name": " Disability Psychology",
+    "description": " Introduction to Disability Psychology",
+    "courseCode": "PSY213",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:54:37.819Z",
+    "updated_at": "2021-09-14T06:54:37.835Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 14,
+    "name": "Discrete Mathematics with Applications",
+    "description": "Introducing Discrete Mathematics with Applications",
+    "courseCode": "MAT212",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-29T16:16:40.794Z",
+    "updated_at": "2021-09-11T20:17:27.849Z",
+    "programs": [
+      {
+        "id": 14,
+        "name": "Bachelor of Science in Computer Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-science",
+        "created_at": "2021-07-12T12:59:13.047Z",
+        "updated_at": "2021-07-12T12:59:13.053Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 10,
+        "name": "Bachelor of Science in Actuarial Science (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-actuarial-science-(hons)",
+        "created_at": "2021-07-12T12:54:07.858Z",
+        "updated_at": "2021-08-31T12:31:46.319Z"
+      },
+      {
+        "id": 1,
+        "name": "Bachelor of Education in Computer Science",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-computer-science",
+        "created_at": "2021-07-12T12:47:56.204Z",
+        "updated_at": "2021-07-12T12:47:56.278Z"
+      },
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 4,
+        "course": null,
+        "courseCode": "MAT211",
+        "courseName": "Calculus I",
+        "courseCodeID": "mat-211",
+        "created_at": "2021-09-14T18:55:40.953Z",
+        "updated_at": "2021-09-15T15:29:05.999Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      },
+      {
+        "id": 3,
+        "courseName": "Trigonometry and Elementary  Calculus",
+        "courseCode": "MAT121",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-14T19:14:29.295Z",
+        "updated_at": "2021-09-15T19:17:09.818Z"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Early World History",
+    "description": "Introduction to Early World History",
+    "courseCode": "HIS121",
+    "department": {
+      "id": 21,
+      "name": "Department of History",
+      "slug": "department-of-history",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:22:04.749Z",
+      "created_at": "2021-07-12T16:19:53.098Z",
+      "updated_at": "2021-07-12T16:22:04.771Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T07:31:34.909Z",
+    "updated_at": "2021-09-14T07:31:34.929Z",
+    "programs": [
+      {
+        "id": 32,
+        "name": "Bachelor of Arts in Social Economic History",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-social-economic-history",
+        "created_at": "2021-07-19T14:24:44.839Z",
+        "updated_at": "2021-07-19T14:24:44.845Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 230,
+    "name": " Earth and Petrology",
+    "description": "Introduction to Earth and Petrology",
+    "courseCode": "GLY211",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:41:26.743Z",
+    "updated_at": "2021-09-12T10:41:26.757Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 25,
+        "courseName": " Planet Earth",
+        "courseCode": "GLY121",
+        "courseCodeID": "gly-121",
+        "created_at": "2021-09-15T16:36:35.085Z",
+        "updated_at": "2021-09-15T19:19:52.273Z"
+      },
+      {
+        "id": 19,
+        "courseName": "Earth materials",
+        "courseCode": "GLY111",
+        "courseCodeID": "gly-111",
+        "created_at": "2021-09-15T14:25:31.415Z",
+        "updated_at": "2021-09-15T19:20:18.381Z"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": " Earth materials",
+    "description": "Introduction to Earth materials",
+    "courseCode": "GLY111",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:39:17.451Z",
+    "updated_at": "2021-09-12T10:39:17.474Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 10,
+        "course": null,
+        "courseCode": "MAT111",
+        "courseName": "College Algebra",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:08:37.387Z",
+        "updated_at": "2021-09-15T13:39:01.521Z"
+      },
+      {
+        "id": 12,
+        "course": null,
+        "courseCode": "LAN112",
+        "courseName": "Reading and Listening Skills for Science",
+        "courseCodeID": "lan-112",
+        "created_at": "2021-09-15T13:40:07.443Z",
+        "updated_at": "2021-09-15T13:40:07.453Z"
+      }
+    ],
+    "prerequisites": []
+  },
+  {
+    "id": 232,
+    "name": "Earth’s Resources",
+    "description": "Introduction to Earth’s Resources",
+    "courseCode": "GLY213",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:43:06.614Z",
+    "updated_at": "2021-09-12T10:43:06.637Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 19,
+        "courseName": "Earth materials",
+        "courseCode": "GLY111",
+        "courseCodeID": "gly-111",
+        "created_at": "2021-09-15T14:25:31.415Z",
+        "updated_at": "2021-09-15T19:20:18.381Z"
+      },
+      {
+        "id": 25,
+        "courseName": " Planet Earth",
+        "courseCode": "GLY121",
+        "courseCodeID": "gly-121",
+        "created_at": "2021-09-15T16:36:35.085Z",
+        "updated_at": "2021-09-15T19:19:52.273Z"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": " Earth Systems",
+    "description": " Introduction to Earth Systems",
+    "courseCode": "GLY221",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:44:09.806Z",
+    "updated_at": "2021-09-12T10:44:09.824Z",
+    "programs": [
+      {
+        "id": 20,
+        "name": "Bachelor of Science in Geology",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geology",
+        "created_at": "2021-07-12T16:24:42.111Z",
+        "updated_at": "2021-07-12T16:24:42.116Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 32,
+        "courseName": " Earth and Petrology",
+        "courseCode": "GLY211",
+        "courseCodeID": "gly-211",
+        "created_at": "2021-09-15T19:14:52.294Z",
+        "updated_at": "2021-09-15T19:14:52.303Z"
+      },
+      {
+        "id": 25,
+        "courseName": " Planet Earth",
+        "courseCode": "GLY121",
+        "courseCodeID": "gly-121",
+        "created_at": "2021-09-15T16:36:35.085Z",
+        "updated_at": "2021-09-15T19:19:52.273Z"
+      },
+      {
+        "id": 19,
+        "courseName": "Earth materials",
+        "courseCode": "GLY111",
+        "courseCodeID": "gly-111",
+        "created_at": "2021-09-15T14:25:31.415Z",
+        "updated_at": "2021-09-15T19:20:18.381Z"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "E-Business Techniques",
+    "description": "Introduction to e-business techniques",
+    "courseCode": "INF212",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T14:00:09.377Z",
+    "updated_at": "2021-08-31T14:00:09.401Z",
+    "programs": [
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 135,
+    "name": "Economic History of Malawi",
+    "description": "Introduction to Economic History of Malawi",
+    "courseCode": "MFD 312",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T08:06:02.956Z",
+    "updated_at": "2021-09-12T08:06:02.987Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 343,
+    "name": " Economic Sociology",
+    "description": " Introduction to Economic Sociology",
+    "courseCode": "SOC213",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T09:04:24.011Z",
+    "updated_at": "2021-09-14T09:04:24.022Z",
+    "programs": [
+      {
+        "id": 30,
+        "name": "Bachelor of Arts in Sociology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-sociology",
+        "created_at": "2021-07-19T14:23:15.887Z",
+        "updated_at": "2021-07-19T14:23:15.900Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 206,
+    "name": " Electrical Communications",
+    "description": " Introduction to Electrical Communications",
+    "courseCode": "ELE321",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:13:32.127Z",
+    "updated_at": "2021-09-12T10:13:32.202Z",
+    "programs": [
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 226,
+    "name": "Electricity and Magnetism I",
+    "description": "Electricity and Magnetism I",
+    "courseCode": "PHY 221",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:37:30.064Z",
+    "updated_at": "2021-09-12T10:37:30.082Z",
+    "programs": [
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 20,
+        "course": null,
+        "courseCode": "MAT221",
+        "courseName": " Calculus II",
+        "courseCodeID": "mat-221",
+        "created_at": "2021-09-15T17:00:47.613Z",
+        "updated_at": "2021-09-15T19:01:11.390Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 22,
+        "courseName": "Electricity, Magnetism, Vibrations and Waves",
+        "courseCode": "PHY121",
+        "courseCodeID": "phy-121",
+        "created_at": "2021-09-15T15:05:01.457Z",
+        "updated_at": "2021-09-15T19:00:37.730Z"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Electricity and Magnetism, Vibration and Waves & Electricity and Magnetism",
+    "description": "Intro to Vibration and Waves & Electricity and Magnetism",
+    "courseCode": "PHY121",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:52:35.615Z",
+    "updated_at": "2021-09-15T15:45:52.267Z",
+    "programs": [
+      {
+        "id": 13,
+        "name": "Bachelor of Science in Computer Network Engineering",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-computer-network-engineering",
+        "created_at": "2021-07-12T12:58:19.522Z",
+        "updated_at": "2021-07-12T12:58:19.526Z"
+      },
+      {
+        "id": 2,
+        "name": "Bachelor of Education in Physics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-physics",
+        "created_at": "2021-07-12T12:48:14.628Z",
+        "updated_at": "2021-07-12T12:48:14.638Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      },
+      {
+        "id": 18,
+        "name": "Bachelor of Science in Physics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-physics",
+        "created_at": "2021-07-12T16:23:29.864Z",
+        "updated_at": "2021-07-12T16:23:29.872Z"
+      },
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      },
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 14,
+        "course": null,
+        "courseCode": "MAT121",
+        "courseName": "Trigonometry and Elementary Calculus ",
+        "courseCodeID": "mat-121",
+        "created_at": "2021-09-15T13:42:38.243Z",
+        "updated_at": "2021-09-15T15:59:56.495Z"
+      },
+      {
+        "id": 20,
+        "course": null,
+        "courseCode": "MAT221",
+        "courseName": " Calculus II",
+        "courseCodeID": "mat-221",
+        "created_at": "2021-09-15T17:00:47.613Z",
+        "updated_at": "2021-09-15T19:01:11.390Z"
+      },
+      {
+        "id": 3,
+        "course": null,
+        "courseCode": "PHY111",
+        "courseName": "Mechanics and Properties of Matter",
+        "courseCodeID": "phy-111",
+        "created_at": "2021-09-12T09:12:21.795Z",
+        "updated_at": "2021-09-15T14:38:01.719Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 15,
+        "courseName": "Mechanics and Properties of Matter ",
+        "courseCode": "PHY111",
+        "courseCodeID": "phy-111",
+        "created_at": "2021-09-15T13:48:56.676Z",
+        "updated_at": "2021-09-15T16:50:02.568Z"
+      },
+      {
+        "id": 22,
+        "courseName": "Electricity, Magnetism, Vibrations and Waves",
+        "courseCode": "PHY121",
+        "courseCodeID": "phy-121",
+        "created_at": "2021-09-15T15:05:01.457Z",
+        "updated_at": "2021-09-15T19:00:37.730Z"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Electromagnetics",
+    "description": "Introduction to Electromagnetics",
+    "courseCode": "ELE322",
+    "department": {
+      "id": 19,
+      "name": "Department of Physics",
+      "slug": "department-of-physics",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:09:02.651Z",
+      "created_at": "2021-07-12T14:08:59.935Z",
+      "updated_at": "2021-07-12T14:09:02.681Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:12:35.299Z",
+    "updated_at": "2021-09-12T10:12:35.323Z",
+    "programs": [
+      {
+        "id": 16,
+        "name": "Bachelor of Science in Electronics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-electronics",
+        "created_at": "2021-07-12T13:01:24.530Z",
+        "updated_at": "2021-07-12T13:01:24.535Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 263,
+    "name": "Elementary Macroeconomics",
+    "description": "Introduction to Elementary Macroeconomics",
+    "courseCode": "ECO121",
+    "department": {
+      "id": 20,
+      "name": "Department of Economics",
+      "slug": "department-of-economics",
+      "faculty": 4,
+      "published_at": "2021-07-12T14:09:53.853Z",
+      "created_at": "2021-07-12T14:09:51.396Z",
+      "updated_at": "2021-07-12T14:09:53.931Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 4,
+    "prerequisite": null,
+    "created_at": "2021-09-14T06:22:59.702Z",
+    "updated_at": "2021-09-15T12:58:44.712Z",
+    "programs": [
+      {
+        "id": 39,
+        "name": "Bachelor of Arts in Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-economics",
+        "created_at": "2021-07-19T14:31:39.792Z",
+        "updated_at": "2021-07-19T14:31:39.809Z"
+      },
+      {
+        "id": 10,
+        "name": "Bachelor of Science in Actuarial Science (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-actuarial-science-(hons)",
+        "created_at": "2021-07-12T12:54:07.858Z",
+        "updated_at": "2021-08-31T12:31:46.319Z"
+      },
+      {
+        "id": 29,
+        "name": "Bachelor of Arts in Development Economics",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-development-economics",
+        "created_at": "2021-07-12T18:49:17.105Z",
+        "updated_at": "2021-07-12T18:49:17.115Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 120,
+    "name": "english for media",
+    "description": "English for media",
+    "courseCode": "MFD 131",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T19:57:12.949Z",
+    "updated_at": "2021-09-11T19:57:45.917Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 108,
+    "name": "English for Media",
+    "description": "introduction to English for media",
+    "courseCode": "MFD 114",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T17:21:13.947Z",
+    "updated_at": "2021-09-11T17:21:13.967Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 207,
+    "name": "Enterprise Architecture",
+    "description": "Introduction to Enterprise Architecture",
+    "courseCode": "INF222",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:16:59.659Z",
+    "updated_at": "2021-09-12T10:16:59.671Z",
+    "programs": [
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 211,
+    "name": "Entrepreneurship –Theory and  Practice",
+    "description": "Introduction to Entrepreneurship –Theory and Practice",
+    "courseCode": "INF322",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 3,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T10:20:53.053Z",
+    "updated_at": "2021-09-12T10:20:53.069Z",
+    "programs": [
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 292,
+    "name": " Ethics in Psychological Practice",
+    "description": " Introduction to Ethics in Psychological Practice",
+    "courseCode": "PSY225",
+    "department": {
+      "id": 24,
+      "name": "Department of Psychology",
+      "slug": "department-of-psychology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:11.546Z",
+      "created_at": "2021-07-12T16:21:09.084Z",
+      "updated_at": "2021-07-12T16:21:11.566Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T07:22:35.922Z",
+    "updated_at": "2021-09-14T07:22:35.933Z",
+    "programs": [
+      {
+        "id": 31,
+        "name": "Bachelor of Arts in Psychology",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-psychology",
+        "created_at": "2021-07-19T14:23:38.937Z",
+        "updated_at": "2021-07-19T14:23:38.942Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 128,
+    "name": "Ethnographic Film",
+    "description": "Introduction to Ethnographic Film",
+    "courseCode": "MFD 215",
+    "department": {
+      "id": 8,
+      "name": "Department of Fine and Performing Arts",
+      "slug": "department-of-fine-and-performing-arts",
+      "faculty": 5,
+      "published_at": "2021-07-12T14:04:17.518Z",
+      "created_at": "2021-07-12T14:02:29.090Z",
+      "updated_at": "2021-07-12T14:04:17.549Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T20:12:07.407Z",
+    "updated_at": "2021-09-11T20:12:07.420Z",
+    "programs": [
+      {
+        "id": 27,
+        "name": "Bachelor of Arts in Media for Development",
+        "faculty": 5,
+        "duration": 4,
+        "slug": "bachelor-of-arts-in-media-for-development",
+        "created_at": "2021-07-12T18:46:04.473Z",
+        "updated_at": "2021-07-12T18:46:04.485Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 248,
+    "name": " Family and Community",
+    "description": " Introduction to Family and Community",
+    "courseCode": "HFC212",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-13T19:24:18.563Z",
+    "updated_at": "2021-09-13T19:24:18.610Z",
+    "programs": [
+      {
+        "id": 5,
+        "name": "Bachelor of Education in Human Ecology",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-human-ecology",
+        "created_at": "2021-07-12T12:49:29.765Z",
+        "updated_at": "2021-07-12T12:49:29.772Z"
+      },
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 240,
+    "name": "Family and Community",
+    "description": "Family and Community",
+    "courseCode": "HFN212",
+    "department": {
+      "id": 17,
+      "name": "Department of Human Ecology",
+      "slug": "department-of-human-ecology",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:13.359Z",
+      "created_at": "2021-07-12T14:08:09.550Z",
+      "updated_at": "2021-07-12T14:08:13.385Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-12T11:02:08.942Z",
+    "updated_at": "2021-09-12T11:02:08.960Z",
+    "programs": [
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 329,
+    "name": " Family, Human Rights and the Law",
+    "description": "Introduction to Family, Human Rights and the Law",
+    "courseCode": "GEN213",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-14T08:41:00.022Z",
+    "updated_at": "2021-09-14T08:41:00.035Z",
+    "programs": [
+      {
+        "id": 33,
+        "name": "Bachelor of Social Science in Gender Studies",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-gender-studies",
+        "created_at": "2021-07-19T14:25:12.760Z",
+        "updated_at": "2021-07-19T14:25:12.768Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 364,
+    "name": "Forensic Evidence",
+    "description": "Forensic Evidence",
+    "courseCode": "LML123",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 2,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:54:58.549Z",
+    "updated_at": "2021-09-15T19:54:58.568Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 58,
+    "name": "Foundation of Information Systems",
+    "description": "introduction to foundation of information systems",
+    "courseCode": "INF211",
+    "department": {
+      "id": 15,
+      "name": "Department of Computer Sciences",
+      "slug": "department-of-computer-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:15.388Z",
+      "created_at": "2021-07-12T14:07:11.458Z",
+      "updated_at": "2021-07-12T14:07:15.409Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-08-31T13:58:29.111Z",
+    "updated_at": "2021-08-31T13:58:29.142Z",
+    "programs": [
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 179,
+    "name": "Foundation of Probability and Statistics",
+    "description": "Introduction Foundation of Probability and Statistics.",
+    "courseCode": "STA211",
+    "department": {
+      "id": 18,
+      "name": "Department of Mathematical Sciences",
+      "slug": "department-of-mathematical-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:08:38.297Z",
+      "created_at": "2021-07-12T14:08:35.930Z",
+      "updated_at": "2021-07-12T14:08:38.330Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": 1,
+    "created_at": "2021-09-12T09:40:29.344Z",
+    "updated_at": "2021-09-14T19:09:00.660Z",
+    "programs": [
+      {
+        "id": 17,
+        "name": "Bachelor of Science in Mathematics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-mathematics",
+        "created_at": "2021-07-12T16:23:03.065Z",
+        "updated_at": "2021-07-12T16:23:03.076Z"
+      },
+      {
+        "id": 15,
+        "name": "Bachelor of Science in Information Systems",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-information-systems",
+        "created_at": "2021-07-12T13:00:46.247Z",
+        "updated_at": "2021-07-12T13:00:46.253Z"
+      },
+      {
+        "id": 10,
+        "name": "Bachelor of Science in Actuarial Science (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-actuarial-science-(hons)",
+        "created_at": "2021-07-12T12:54:07.858Z",
+        "updated_at": "2021-08-31T12:31:46.319Z"
+      },
+      {
+        "id": 24,
+        "name": "Bachelor of Science in Family and Consumer Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-family-and-consumer-sciences",
+        "created_at": "2021-07-12T16:26:41.859Z",
+        "updated_at": "2021-07-12T16:26:41.872Z"
+      },
+      {
+        "id": 6,
+        "name": "Bachelor of Education in Mathematics",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-mathematics",
+        "created_at": "2021-07-12T12:50:40.577Z",
+        "updated_at": "2021-07-12T12:50:40.584Z"
+      },
+      {
+        "id": 19,
+        "name": "Bachelor of Science in Statistics",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-statistics",
+        "created_at": "2021-07-12T16:23:53.878Z",
+        "updated_at": "2021-07-12T16:23:53.884Z"
+      }
+    ],
+    "corequisites": [
+      {
+        "id": 5,
+        "course": null,
+        "courseCode": "MAT212",
+        "courseName": "Discrete Mathematics with Applications",
+        "courseCodeID": "mat-212",
+        "created_at": "2021-09-14T18:57:18.217Z",
+        "updated_at": "2021-09-15T15:21:00.363Z"
+      },
+      {
+        "id": 4,
+        "course": null,
+        "courseCode": "MAT211",
+        "courseName": "Calculus I",
+        "courseCodeID": "mat-211",
+        "created_at": "2021-09-14T18:55:40.953Z",
+        "updated_at": "2021-09-15T15:29:05.999Z"
+      }
+    ],
+    "prerequisites": [
+      {
+        "id": 1,
+        "courseName": "Descriptive Statistics",
+        "courseCode": "STA121",
+        "courseCodeID": "sat-121",
+        "created_at": "2021-09-14T18:59:31.167Z",
+        "updated_at": "2021-09-15T16:42:22.941Z"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Functional Group Chemistry",
+    "description": "An intro to functional group chemistry",
+    "courseCode": "CHE212",
+    "department": {
+      "id": 14,
+      "name": "Department of Chemistry",
+      "slug": "department-of-chemistry",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:06:46.339Z",
+      "created_at": "2021-07-12T14:06:43.601Z",
+      "updated_at": "2021-07-12T14:06:46.381Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-11T19:35:31.442Z",
+    "updated_at": "2021-09-12T09:07:33.510Z",
+    "programs": [
+      {
+        "id": 3,
+        "name": "Bachelor of Education in Biological Sciences",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-biological-sciences",
+        "created_at": "2021-07-12T12:48:50.342Z",
+        "updated_at": "2021-07-12T12:48:50.347Z"
+      },
+      {
+        "id": 11,
+        "name": "Bachelor of Science in Biological Sciences",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-biological-sciences",
+        "created_at": "2021-07-12T12:57:04.283Z",
+        "updated_at": "2021-07-12T12:57:04.290Z"
+      },
+      {
+        "id": 23,
+        "name": "Bachelor of Science in Food and Nutrition",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-food-and-nutrition",
+        "created_at": "2021-07-12T16:26:14.563Z",
+        "updated_at": "2021-07-12T16:26:14.575Z"
+      },
+      {
+        "id": 4,
+        "name": "Bachelor of Education in Chemistry",
+        "faculty": 2,
+        "duration": 4,
+        "slug": "bachelor-of-education-in-chemistry",
+        "created_at": "2021-07-12T12:49:10.387Z",
+        "updated_at": "2021-07-12T12:49:10.400Z"
+      },
+      {
+        "id": 9,
+        "name": "Bachelor of Science",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science",
+        "created_at": "2021-07-12T12:53:29.392Z",
+        "updated_at": "2021-07-12T12:53:29.400Z"
+      },
+      {
+        "id": 12,
+        "name": "Bachelor of Science in Chemistry (Hons)",
+        "faculty": 3,
+        "duration": 5,
+        "slug": "bachelor-of-science-in-chemistry-(hons)",
+        "created_at": "2021-07-12T12:57:32.489Z",
+        "updated_at": "2021-08-31T12:31:20.021Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 24,
+        "courseName": " Basic Thermodynamics and Chemical Kinetics",
+        "courseCode": "CHE211",
+        "courseCodeID": "che-211",
+        "created_at": "2021-09-15T15:12:25.586Z",
+        "updated_at": "2021-09-15T15:12:25.606Z"
+      },
+      {
+        "id": 13,
+        "courseName": "General Chemistry I",
+        "courseCode": "CHE111",
+        "courseCodeID": "che-111",
+        "created_at": "2021-09-15T13:46:31.778Z",
+        "updated_at": "2021-09-15T16:51:23.875Z"
+      },
+      {
+        "id": 14,
+        "courseName": " College Algebra",
+        "courseCode": "MAT111",
+        "courseCodeID": "mat-111",
+        "created_at": "2021-09-15T13:47:37.182Z",
+        "updated_at": "2021-09-15T19:16:45.607Z"
+      },
+      {
+        "id": 23,
+        "courseName": "General Chemistry II",
+        "courseCode": "CHE121",
+        "courseCodeID": "che-121",
+        "created_at": "2021-09-15T15:06:06.108Z",
+        "updated_at": "2021-09-15T16:52:04.679Z"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": " Fundamental Psychology",
+    "description": "Introduction to Fundamental Psychology",
+    "courseCode": "LML111",
+    "department": {
+      "id": 25,
+      "name": "Department of Sociology",
+      "slug": "department-of-sociology",
+      "faculty": 4,
+      "published_at": "2021-07-12T16:21:33.617Z",
+      "created_at": "2021-07-12T16:21:30.846Z",
+      "updated_at": "2021-07-12T16:21:33.647Z"
+    },
+    "course": null,
+    "year": 1,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": null,
+    "created_at": "2021-09-15T19:45:47.740Z",
+    "updated_at": "2021-09-15T19:45:47.764Z",
+    "programs": [
+      {
+        "id": 40,
+        "name": "Bachelor of Social Science in Law Enforcement Management and Leadership",
+        "faculty": 4,
+        "duration": 4,
+        "slug": "bachelor-of-social-science-in-law-enforcement-management-and-leadership",
+        "created_at": "2021-07-19T14:32:27.712Z",
+        "updated_at": "2021-07-19T14:32:27.719Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": []
+  },
+  {
+    "id": 223,
+    "name": " Fundamentals of Economic Geography",
+    "description": " Introduction to Fundamentals of Economic Geography",
+    "courseCode": "GEO212",
+    "department": {
+      "id": 16,
+      "name": "Department of Geography and Earth Sciences",
+      "slug": "department-of-geography-and-earth-sciences",
+      "faculty": 3,
+      "published_at": "2021-07-12T14:07:43.856Z",
+      "created_at": "2021-07-12T14:07:41.398Z",
+      "updated_at": "2021-07-12T14:07:43.908Z"
+    },
+    "course": null,
+    "year": 2,
+    "semester": 1,
+    "creditHours": 3,
+    "prerequisite": 5,
+    "created_at": "2021-09-12T10:35:04.746Z",
+    "updated_at": "2021-09-14T20:31:44.833Z",
+    "programs": [
+      {
+        "id": 22,
+        "name": "Bachelor of Science in Geography",
+        "faculty": 3,
+        "duration": 4,
+        "slug": "bachelor-of-science-in-geography",
+        "created_at": "2021-07-12T16:25:47.229Z",
+        "updated_at": "2021-07-12T16:25:47.239Z"
+      }
+    ],
+    "corequisites": [],
+    "prerequisites": [
+      {
+        "id": 5,
+        "courseName": " Introduction to Physical Geography",
+        "courseCode": "GEO121",
+        "courseCodeID": "geo-121",
+        "created_at": "2021-09-14T20:31:44.796Z",
+        "updated_at": "2021-09-15T19:09:44.858Z"
+      },
+      {
+        "id": 4,
+        "courseName": "Contemporary Human Geography",
+        "courseCode": "GEO111",
+        "courseCodeID": "geo-111",
+        "created_at": "2021-09-14T20:30:10.760Z",
+        "updated_at": "2021-09-15T19:10:44.115Z"
+      }
+    ]
+  }
+]
