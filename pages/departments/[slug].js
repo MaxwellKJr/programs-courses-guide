@@ -80,7 +80,7 @@ const Departments = ({ departments, courses }) => {
             {courses.map((course) => (
               <Link key={course.id} href={`/courses/${course.courseCode}`}>
                 <a className="flex flex-row justify-center items-center text-xl text-center font-semibold py-2 sm:px-2 sm:py-4 bg-gray-100 bg-opacity-30 rounded hover: hover:shadow-xl hover:border-yellow-200 hover:bg-yellow-200 hover:text-blue-500 px-4 md:p-4 lg:p-4 transition ease-in-out delay-150 transform hover:scale-105">
-                  {course.name}
+                  {`${course.courseCode} - ${course.name}s`}
                 </a>
               </Link>
             ))}
