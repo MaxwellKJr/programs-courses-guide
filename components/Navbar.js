@@ -5,6 +5,9 @@ import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import programs from "../public/programsData.json";
+import courses from "../public/coursesData.json";
+import faculties from "../public/facultiesData.json";
+import departments from "../public/departmentsData.json";
 
 // export async function getStaticProps() {
 //   // Program data
@@ -94,6 +97,80 @@ const Navbar = () => {
                   onClick={() => setSearchBarStatus(false)}
                 >
                   <Link href={`/programs/${val.slug}`}>
+                    <a className="font-semibold">{val.name}</a>
+                  </Link>
+                </div>
+              );
+            })}
+
+          {courses
+            .filter((val) => {
+              if (searchTerm == "") {
+                return "";
+              } else if (
+                val.name.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return val;
+              }
+            })
+            .map((val, key) => {
+              return (
+                <div
+                  className=""
+                  key={key}
+                  onClick={() => setSearchBarStatus(false)}
+                >
+                  <Link href={`/courses/${val.courseCode}`}>
+                    <a className="font-semibold">
+                      {val.courseCode} - {val.name}
+                    </a>
+                  </Link>
+                </div>
+              );
+            })}
+
+          {departments
+            .filter((val) => {
+              if (searchTerm == "") {
+                return "";
+              } else if (
+                val.name.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return val;
+              }
+            })
+            .map((val, key) => {
+              return (
+                <div
+                  className=""
+                  key={key}
+                  onClick={() => setSearchBarStatus(false)}
+                >
+                  <Link href={`/courses/${val.slug}`}>
+                    <a className="font-semibold">{val.name}</a>
+                  </Link>
+                </div>
+              );
+            })}
+
+          {faculties
+            .filter((val) => {
+              if (searchTerm == "") {
+                return "";
+              } else if (
+                val.name.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return val;
+              }
+            })
+            .map((val, key) => {
+              return (
+                <div
+                  className=""
+                  key={key}
+                  onClick={() => setSearchBarStatus(false)}
+                >
+                  <Link href={`/faculties/${val.slug}`}>
                     <a className="font-semibold">{val.name}</a>
                   </Link>
                 </div>
