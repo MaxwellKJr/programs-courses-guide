@@ -155,7 +155,7 @@ const Navbar = () => {
                   key={key}
                   onClick={() => setSearchBarStatus(false)}
                 >
-                  <Link href={`/courses/${val.slug}`}>
+                  <Link href={`/departments/${val.slug}`}>
                     <a className="font-semibold">{val.name}</a>
                   </Link>
                 </div>
