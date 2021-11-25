@@ -14,13 +14,7 @@ const Footer = () => {
           </Link>
           {" | "}
           <span className="inline-block">
-            {new Date().getFullYear().toString()} &copy; University of Malawi{" "}
-            {" | "}{" "}
-            <Link href="/admin">
-              <a className="text-yellow-200 hover:text-yellow-400 ease-in-out transition">
-                Admin
-              </a>
-            </Link>
+            {new Date().getFullYear().toString()} &copy; University of Malawi
           </span>
           {" />"}
         </p>
