@@ -22,6 +22,15 @@ const Home = () => {
           content="Here to guide you in choosing the right courses and route map"
         />
       </Head>
+      <div
+        role="note"
+        className="bg-yellow-200 px-4 py-3 text-center text-sm font-semibold text-blue-900"
+      >
+        Disclaimer: This website was developed about five years ago as a
+        school mini project. Most of the programme and course information may
+        be outdated. Please confirm current details with the University of
+        Malawi before relying on them.
+      </div>
       <HeroSection />
     </main>
   );
